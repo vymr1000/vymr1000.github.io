@@ -27,6 +27,14 @@ entries:
       show_more_text: See archive...
       show_more_url: archive.html
 
+  - title: info
+    post_list:
+      category: info
+      limit: 30
+      show_more: true
+      show_more_text: See archive...
+      show_more_url: archive.html
+
 #  - title: posts by category
 #    post_list:
 #      category: example2
