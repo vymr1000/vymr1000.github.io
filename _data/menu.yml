@@ -3,28 +3,41 @@
 
 entries:
 
-  - title: all posts
+  - title: 2023
     post_list:
-      limit: 5
+      category: "2023"
+      limit: 30
       show_more: true
       show_more_text: See archive...
       show_more_url: archive.html
 
-  - title: posts by category
+  - title: 2022
     post_list:
-      category: example2
+      category: "2022"
+      limit: 30
       show_more: true
-      show_more_text: See more posts...
-      show_more_url: example2-archive.html
-  
-  - title: another list
-    entries:
-      - title: with subitems
-        entries:
-          - title: with subsubitems
-          - title: example page
-            url: about
+      show_more_text: See archive...
+      show_more_url: archive.html
 
-  - title: PRO TIP
-    entries:
-      - title: to edit this menu, edit _data/menu.yml file
+  - title: 2020
+    post_list:
+      category: "2020"
+      limit: 30
+      show_more: true
+      show_more_text: See archive...
+      show_more_url: archive.html
+
+#  - title: posts by category
+#    post_list:
+#      category: example2
+#      show_more: true
+#      show_more_text: See more posts...
+#      show_more_url: example2-archive.html
+#
+#  - title: another list
+#    entries:
+#      - title: with subitems
+#        entries:
+#          - title: with subsubitems
+#          - title: example page
+#            url: about
