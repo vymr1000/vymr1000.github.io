@@ -1,2 +1,3 @@
-# vymr1000.github.io
-My tech blog documenting my learning journey in backend development, focusing on Java, Spring, and more.
+### Hello world.
+
+Welcome to my tech blog. This is where I document my learning journey in backend development, with a focus on Java, Spring, and various other technologies. Through this blog, I aim to share my experiences, insights, and tips with other developers.
