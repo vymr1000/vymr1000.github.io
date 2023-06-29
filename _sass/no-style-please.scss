@@ -15,11 +15,11 @@ body[a="dark"] { @include dark-appearance; }
   body[a="auto"] { @include dark-appearance; }
 }
 
-body[a="light"] h1 { font-family: "NanumSquareNeoHeavy", sans-serif; text-decoration: none;}
+body h1 { font-family: "NanumSquareNeoHeavy", sans-serif; text-decoration: none;}
 
-body[a="light"] a { color: #00af66; text-decoration: none;}
+body a { color: #00af66; text-decoration: none;}
 
-body[a="light"] li span {
+body li span {
   color: dimgray;
   display: inline-block; /* inline-block으로 설정해야 width가 적용됨. */
   width: 110px;
