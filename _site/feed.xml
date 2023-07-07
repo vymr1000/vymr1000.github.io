@@ -1,119 +1,112 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.3.2">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2023-06-30T01:36:15+09:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">Dev Ceremony</title><subtitle>A (nearly) no-CSS, fast, minimalist Jekyll theme.
-</subtitle><author><name>Sun Hong Lee</name></author><entry><title type="html">Spring에 관한 질문 및 응답</title><link href="http://localhost:4000/spring%EC%97%90-%EA%B4%80%ED%95%9C-%EC%A7%88%EB%AC%B8-%EB%B0%8F-%EC%9D%91%EB%8B%B5.html" rel="alternate" type="text/html" title="Spring에 관한 질문 및 응답" /><published>2023-06-29T00:00:00+09:00</published><updated>2023-06-29T00:00:00+09:00</updated><id>http://localhost:4000/spring%EC%97%90-%EA%B4%80%ED%95%9C-%EC%A7%88%EB%AC%B8-%EB%B0%8F-%EC%9D%91%EB%8B%B5</id><content type="html" xml:base="http://localhost:4000/spring%EC%97%90-%EA%B4%80%ED%95%9C-%EC%A7%88%EB%AC%B8-%EB%B0%8F-%EC%9D%91%EB%8B%B5.html">&lt;p&gt;Lorem ipsum&lt;sup id=&quot;fnref:1&quot; role=&quot;doc-noteref&quot;&gt;&lt;a href=&quot;#fn:1&quot; class=&quot;footnote&quot; rel=&quot;footnote&quot;&gt;1&lt;/a&gt;&lt;/sup&gt; dolor sit amet, consectetur adipiscing elit. Pellentesque vel lacinia neque. Praesent nulla quam, ullamcorper in sollicitudin ac, molestie sed justo. Cras aliquam, sapien id consectetur accumsan, augue magna faucibus ex, ut ultricies turpis tortor vel ante. In at rutrum tellus.&lt;/p&gt;
-
-&lt;h1 id=&quot;sample-heading-1&quot;&gt;Sample heading 1&lt;/h1&gt;
-&lt;h2 id=&quot;sample-heading-2&quot;&gt;Sample heading 2&lt;/h2&gt;
-&lt;h3 id=&quot;sample-heading-3&quot;&gt;Sample heading 3&lt;/h3&gt;
-&lt;h4 id=&quot;sample-heading-4&quot;&gt;Sample heading 4&lt;/h4&gt;
-&lt;h5 id=&quot;sample-heading-5&quot;&gt;Sample heading 5&lt;/h5&gt;
-&lt;h6 id=&quot;sample-heading-6&quot;&gt;Sample heading 6&lt;/h6&gt;
-
-&lt;p&gt;Mauris viverra dictum ultricies. Vestibulum quis ipsum euismod, facilisis metus sed, varius ipsum. Donec scelerisque lacus libero, eu dignissim sem venenatis at. Etiam id nisl ut lorem gravida euismod.&lt;/p&gt;
-
-&lt;h2 id=&quot;lists&quot;&gt;Lists&lt;/h2&gt;
-
-&lt;p&gt;Unordered:&lt;/p&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;Fusce non velit cursus ligula mattis convallis vel at metus&lt;sup id=&quot;fnref:2&quot; role=&quot;doc-noteref&quot;&gt;&lt;a href=&quot;#fn:2&quot; class=&quot;footnote&quot; rel=&quot;footnote&quot;&gt;2&lt;/a&gt;&lt;/sup&gt;.&lt;/li&gt;
-  &lt;li&gt;Sed pharetra tellus massa, non elementum eros vulputate non.&lt;/li&gt;
-  &lt;li&gt;Suspendisse potenti.&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;Ordered:&lt;/p&gt;
-
-&lt;ol&gt;
-  &lt;li&gt;Quisque arcu felis, laoreet vel accumsan sit amet, fermentum at nunc.&lt;/li&gt;
-  &lt;li&gt;Sed massa quam, auctor in eros quis, porttitor tincidunt orci.&lt;/li&gt;
-  &lt;li&gt;Nulla convallis id sapien ornare viverra.&lt;/li&gt;
-  &lt;li&gt;Nam a est eget ligula pellentesque posuere.&lt;/li&gt;
-&lt;/ol&gt;
-
-&lt;h2 id=&quot;blockquote&quot;&gt;Blockquote&lt;/h2&gt;
-
-&lt;p&gt;The following is a blockquote:&lt;/p&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.3.2">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2023-07-07T22:30:10+09:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">Dev Ceremony</title><subtitle>A (nearly) no-CSS, fast, minimalist Jekyll theme.
+</subtitle><author><name>Sun Hong Lee</name></author><entry><title type="html">Spring에 관한 질문 및 응답</title><link href="http://localhost:4000/spring%EC%97%90-%EA%B4%80%ED%95%9C-%EC%A7%88%EB%AC%B8-%EB%B0%8F-%EC%9D%91%EB%8B%B5.html" rel="alternate" type="text/html" title="Spring에 관한 질문 및 응답" /><published>2023-06-29T00:00:00+09:00</published><updated>2023-06-29T00:00:00+09:00</updated><id>http://localhost:4000/spring%EC%97%90-%EA%B4%80%ED%95%9C-%EC%A7%88%EB%AC%B8-%EB%B0%8F-%EC%9D%91%EB%8B%B5</id><content type="html" xml:base="http://localhost:4000/spring%EC%97%90-%EA%B4%80%ED%95%9C-%EC%A7%88%EB%AC%B8-%EB%B0%8F-%EC%9D%91%EB%8B%B5.html">&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
 
 &lt;blockquote&gt;
-  &lt;p&gt;Suspendisse tempus dolor nec risus sodales posuere. Proin dui dui, mollis a consectetur molestie, lobortis vitae tellus.&lt;/p&gt;
+  &lt;p&gt;Spring 및 Springboot의 구조, 동작과정 및 기본 원리에 대한 개념 정리&lt;/p&gt;
 &lt;/blockquote&gt;
 
-&lt;h2 id=&quot;thematic-breaks-hr&quot;&gt;Thematic breaks (&amp;lt;hr&amp;gt;)&lt;/h2&gt;
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
 
-&lt;p&gt;Mauris viverra dictum ultricies&lt;sup id=&quot;fnref:3&quot; role=&quot;doc-noteref&quot;&gt;&lt;a href=&quot;#fn:3&quot; class=&quot;footnote&quot; rel=&quot;footnote&quot;&gt;3&lt;/a&gt;&lt;/sup&gt;. Vestibulum quis ipsum euismod, facilisis metus sed, varius ipsum. Donec scelerisque lacus libero, eu dignissim sem venenatis at. Etiam id nisl ut lorem gravida euismod. &lt;strong&gt;You can put some text inside the horizontal rule like so.&lt;/strong&gt;&lt;/p&gt;
+&lt;h2 id=&quot;spring의-동작과정에-대해&quot;&gt;Spring의 동작과정에 대해&lt;/h2&gt;
 
-&lt;hr data-content=&quot;hr with text&quot; /&gt;
+&lt;hr data-content=&quot;핵심&quot; /&gt;
 
-&lt;p&gt;Mauris viverra dictum ultricies. Vestibulum quis ipsum euismod, facilisis metus sed, varius ipsum. Donec scelerisque lacus libero, eu dignissim sem venenatis at. Etiam id nisl ut lorem gravida euismod. &lt;strong&gt;Or you can just have an clean horizontal rule.&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;Spring Framework는 자바 플랫폼을 위한 애플리케이션 프레임워크로, 엔터프라이즈 수준의 애플리케이션을 개발하는 데 필요한 모든 기능을 포괄적으로 제공합니다. 주요 기능 중 하나는 제어의 역전(IoC) 컨테이너를 통한 객체의 생명 주기 및 의존성 관리입니다.&lt;/p&gt;
 
-&lt;hr /&gt;
+&lt;hr data-content=&quot;자세한 설명&quot; /&gt;
 
-&lt;p&gt;Mauris viverra dictum ultricies. Vestibulum quis ipsum euismod, facilisis metus sed, varius ipsum. Donec scelerisque lacus libero, eu dignissim sem venenatis at. Etiam id nisl ut lorem gravida euismod. Or you can just have an clean horizontal rule.&lt;/p&gt;
+&lt;p&gt;Spring Framework의 동작 과정은 다음과 같습니다:&lt;/p&gt;
 
-&lt;h2 id=&quot;code&quot;&gt;Code&lt;/h2&gt;
+&lt;ol&gt;
+  &lt;li&gt;
+    &lt;p&gt;초기화: Spring 애플리케이션은 시작 시 Spring IoC(Inversion of Control) 컨테이너를 초기화합니다. 이 과정에서 XML, Java Config, Annotation 등을 이용해 정의된 Bean들의 메타데이터를 로딩하고 파싱합니다.&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;Bean 정의: 개발자가 XML 파일이나 Java Config를 통해 정의한 Bean들의 정보를 읽어들입니다. 이 정보는 Bean의 이름, 클래스 타입, 스코프(scope), 생성자 및 속성값 등을 포함합니다.&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;Bean 생성: Bean의 정의를 바탕으로 Spring IoC 컨테이너는 Bean의 인스턴스를 생성하고, 의존성 주입(Dependency Injection)을 수행합니다. 의존성 주입은 Bean이 필요로 하는 다른 Bean들을 주입하는 과정을 말합니다.&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;Bean 사용: 애플리케이션은 IoC 컨테이너로부터 필요한 Bean을 가져와 사용합니다. 이때, 요청받은 Bean이 없다면 IoC 컨테이너는 해당 Bean을 생성하여 제공합니다.&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;종료: 애플리케이션 종료 시, Spring IoC 컨테이너는 모든 Singleton Bean에 대한 생명 주기를 관리하고, 필요한 경우 종료 메서드를 호출합니다.&lt;/p&gt;
+  &lt;/li&gt;
+&lt;/ol&gt;
 
-&lt;p&gt;Now some code:&lt;/p&gt;
+&lt;p&gt;Spring Framework의 핵심은 이러한 IoC 컨테이너로, 개발자 대신 객체의 생명 주기를 관리하고 객체 간의 의존성을 관리합니다. 이로써 개발자는 비즈니스 로직 구현에 집중할 수 있으며, 코드의 재사용성과 유연성이 향상됩니다.&lt;/p&gt;
 
-&lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;const ultimateTruth = &apos;this theme is the best!&apos;;
-console.log(ultimateTruth);
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+&lt;h2 id=&quot;springboot-동작과정에-대해&quot;&gt;Springboot 동작과정에 대해&lt;/h2&gt;
 
-&lt;p&gt;And here is some &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;inline code&lt;/code&gt;!&lt;/p&gt;
+&lt;hr data-content=&quot;핵심&quot; /&gt;
 
-&lt;h2 id=&quot;tables&quot;&gt;Tables&lt;/h2&gt;
+&lt;p&gt;Spring Boot는 Spring 기반 애플리케이션을 빠르고 쉽게 만들어 줄 수 있는 프레임워크입니다. 기본 설정을 통해 사용자가 선택하는 라이브러리와 프레임워크에 따라 필요한 설정을 자동화해주며, 애플리케이션을 단독으로 실행할 수 있게 도와줍니다.&lt;/p&gt;
 
-&lt;p&gt;Now a table:&lt;/p&gt;
+&lt;hr data-content=&quot;자세한 설명&quot; /&gt;
 
-&lt;table&gt;
-  &lt;thead&gt;
-    &lt;tr&gt;
-      &lt;th&gt;Tables&lt;/th&gt;
-      &lt;th style=&quot;text-align: center&quot;&gt;Are&lt;/th&gt;
-      &lt;th style=&quot;text-align: right&quot;&gt;Cool&lt;/th&gt;
-    &lt;/tr&gt;
-  &lt;/thead&gt;
-  &lt;tbody&gt;
-    &lt;tr&gt;
-      &lt;td&gt;col 3 is&lt;/td&gt;
-      &lt;td style=&quot;text-align: center&quot;&gt;right-aligned&lt;/td&gt;
-      &lt;td style=&quot;text-align: right&quot;&gt;$1600&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td&gt;col 2 is&lt;/td&gt;
-      &lt;td style=&quot;text-align: center&quot;&gt;centered&lt;/td&gt;
-      &lt;td style=&quot;text-align: right&quot;&gt;$12&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td&gt;zebra stripes&lt;/td&gt;
-      &lt;td style=&quot;text-align: center&quot;&gt;are neat&lt;/td&gt;
-      &lt;td style=&quot;text-align: right&quot;&gt;$1&lt;/td&gt;
-    &lt;/tr&gt;
-  &lt;/tbody&gt;
-&lt;/table&gt;
+&lt;p&gt;Spring Boot 애플리케이션의 동작 과정을 설명하겠습니다.&lt;/p&gt;
 
-&lt;h2 id=&quot;images&quot;&gt;Images&lt;/h2&gt;
+&lt;ol&gt;
+  &lt;li&gt;
+    &lt;p&gt;애플리케이션 시작: &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;public static void main&lt;/code&gt; 메서드를 통해 Spring Boot 애플리케이션을 시작합니다. 이 메서드에서는 &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;SpringApplication.run&lt;/code&gt; 메서드를 호출합니다.&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;설정 파일 로딩: &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;SpringApplication.run&lt;/code&gt;이 실행되면서 기본적으로 &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;application.yml&lt;/code&gt; 등의 설정 파일들을 로드합니다.&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;내장 서버 생성: Spring Boot는 웹 애플리케이션의 경우 내장 서버(Tomcat, Jetty, Undertow 등)를 자동으로 생성합니다.&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;클래스패스 스캔: &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;@ComponentScan&lt;/code&gt; 어노테이션을 통해 Spring이 관리해야 할 Bean들을 스캔합니다. 클래스패스 스캔 범위는 기본적으로 메인 애플리케이션 클래스가 위치한 패키지와 하위 패키지입니다.&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;자동 설정: &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;@EnableAutoConfiguration&lt;/code&gt; 어노테이션을 통해 스프링 부트의 자동 설정 기능이 동작합니다. 이 기능은 클래스패스에 있는 라이브러리나 사용자 설정에 따라 애플리케이션의 필요한 빈을 자동으로 설정해줍니다.&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;애플리케이션 실행: 마지막으로 필요한 빈들이 모두 등록되고 나면, 애플리케이션은 실행 상태가 됩니다. 이후 HTTP 요청 등에 따라 적절한 컨트롤러가 호출되고, 비즈니스 로직이 실행됩니다.&lt;/p&gt;
+  &lt;/li&gt;
+&lt;/ol&gt;
 
-&lt;p&gt;&lt;img src=&quot;https://raw.githubusercontent.com/riggraz/no-style-please/master/logo.png&quot; alt=&quot;theme logo&quot; class=&quot;ioda&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;이렇게 Spring Boot는 애플리케이션 개발에서 반복적으로 수행해야 할 설정 작업을 최소화하고, 프로그래머가 비즈니스 로직에 집중할 수 있도록 도와줍니다.&lt;/p&gt;
 
-&lt;p&gt;Logo of &lt;em&gt;no style, please!&lt;/em&gt; theme&lt;sup id=&quot;fnref:4&quot; role=&quot;doc-noteref&quot;&gt;&lt;a href=&quot;#fn:4&quot; class=&quot;footnote&quot; rel=&quot;footnote&quot;&gt;4&lt;/a&gt;&lt;/sup&gt;&lt;/p&gt;
+&lt;h2 id=&quot;springapplicationrun메소드는-어떤-역할과-기능을-하는지에-대해&quot;&gt;SpringApplication.run메소드는 어떤 역할과 기능을 하는지에 대해&lt;/h2&gt;
 
-&lt;hr data-content=&quot;footnotes&quot; /&gt;
+&lt;hr data-content=&quot;핵심&quot; /&gt;
 
-&lt;div class=&quot;footnotes&quot; role=&quot;doc-endnotes&quot;&gt;
-  &lt;ol&gt;
-    &lt;li id=&quot;fn:1&quot; role=&quot;doc-endnote&quot;&gt;
-      &lt;p&gt;this is a footnote. It should highlight if you click on the corresponding superscript number. &lt;a href=&quot;#fnref:1&quot; class=&quot;reversefootnote&quot; role=&quot;doc-backlink&quot;&gt;&amp;#8617;&lt;/a&gt;&lt;/p&gt;
-    &lt;/li&gt;
-    &lt;li id=&quot;fn:2&quot; role=&quot;doc-endnote&quot;&gt;
-      &lt;p&gt;hey there, i’m using no style please! &lt;a href=&quot;#fnref:2&quot; class=&quot;reversefootnote&quot; role=&quot;doc-backlink&quot;&gt;&amp;#8617;&lt;/a&gt;&lt;/p&gt;
-    &lt;/li&gt;
-    &lt;li id=&quot;fn:3&quot; role=&quot;doc-endnote&quot;&gt;
-      &lt;p&gt;this is another footnote. &lt;a href=&quot;#fnref:3&quot; class=&quot;reversefootnote&quot; role=&quot;doc-backlink&quot;&gt;&amp;#8617;&lt;/a&gt;&lt;/p&gt;
-    &lt;/li&gt;
-    &lt;li id=&quot;fn:4&quot; role=&quot;doc-endnote&quot;&gt;
-      &lt;p&gt;this is a very very long footnote to test if a very very long footnote brings some problems or not. I strongly hope that there are no problems but you know sometimes problems arise from nowhere. &lt;a href=&quot;#fnref:4&quot; class=&quot;reversefootnote&quot; role=&quot;doc-backlink&quot;&gt;&amp;#8617;&lt;/a&gt;&lt;/p&gt;
-    &lt;/li&gt;
-  &lt;/ol&gt;
-&lt;/div&gt;</content><author><name>Sun Hong Lee</name></author><category term="2023" /><summary type="html">Lorem ipsum1 dolor sit amet, consectetur adipiscing elit. Pellentesque vel lacinia neque. Praesent nulla quam, ullamcorper in sollicitudin ac, molestie sed justo. Cras aliquam, sapien id consectetur accumsan, augue magna faucibus ex, ut ultricies turpis tortor vel ante. In at rutrum tellus. this is a footnote. It should highlight if you click on the corresponding superscript number. &amp;#8617;</summary></entry><entry><title type="html">도메인 서비스 &amp;amp; 애플리케이션 서비스</title><link href="http://localhost:4000/%EB%8F%84%EB%A9%94%EC%9D%B8-%EC%84%9C%EB%B9%84%EC%8A%A4-%EC%95%A0%ED%94%8C%EB%A6%AC%EC%BC%80%EC%9D%B4%EC%85%98-%EC%84%9C%EB%B9%84%EC%8A%A4.html" rel="alternate" type="text/html" title="도메인 서비스 &amp;amp; 애플리케이션 서비스" /><published>2022-09-03T00:00:00+09:00</published><updated>2022-09-03T00:00:00+09:00</updated><id>http://localhost:4000/%EB%8F%84%EB%A9%94%EC%9D%B8-%EC%84%9C%EB%B9%84%EC%8A%A4-&amp;-%EC%95%A0%ED%94%8C%EB%A6%AC%EC%BC%80%EC%9D%B4%EC%85%98-%EC%84%9C%EB%B9%84%EC%8A%A4</id><content type="html" xml:base="http://localhost:4000/%EB%8F%84%EB%A9%94%EC%9D%B8-%EC%84%9C%EB%B9%84%EC%8A%A4-%EC%95%A0%ED%94%8C%EB%A6%AC%EC%BC%80%EC%9D%B4%EC%85%98-%EC%84%9C%EB%B9%84%EC%8A%A4.html">&lt;p&gt;도메인 서비스는 &lt;strong&gt;&lt;em&gt;entity&lt;/em&gt;&lt;/strong&gt;와 &lt;strong&gt;&lt;em&gt;value object(VO)&lt;/em&gt;&lt;/strong&gt; 에 자연스럽게 맞지 않는 도메인 정보를 전달한다고 한다. 그러나 도메인 서비스를 도입하려는 또 다른 이유가 있다. 그 이유는 도메인 모델 &lt;strong&gt;격리(Isolation)&lt;/strong&gt; 와 관련이 있다.&lt;/p&gt;
+&lt;p&gt;&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;SpringApplication.run&lt;/code&gt; 메소드는 Springboot 애플리케이션을 시작하는 진입점입니다. 이 메소드는 Spring 어플리케이션 컨텍스트를 생성하고 실행합니다.&lt;/p&gt;
+
+&lt;hr data-content=&quot;자세한 설명&quot; /&gt;
+
+&lt;p&gt;&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;SpringApplication.run&lt;/code&gt; 메소드는 자바 클래스를 인자로 받아, 그 클래스를 기반으로 Spring 어플리케이션 컨텍스트를 생성합니다. 이 메소드는 애플리케이션 컨텍스트의 라이프사이클을 관리하며, 필요한 설정과 함께 Spring의 IoC(IoC, Inversion of Control) 컨테이너를 시작합니다.&lt;/p&gt;
+
+&lt;p&gt;이 메소드는 또한 Springboot의 자동-구성(Auto-Configuration) 기능을 활성화합니다. 이는 Spring Boot 애플리케이션에 포함된 jar 종속성을 기반으로 애플리케이션의 기본 설정을 자동으로 완성합니다. 예를 들어, Spring MVC와 Tomcat이 클래스패스에 있을 경우, Springboot는 웹 애플리케이션을 실행하기 위해 필요한 설정을 자동으로 추가합니다.&lt;/p&gt;
+
+&lt;p&gt;따라서 &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;SpringApplication.run&lt;/code&gt; 메소드는 Spring Boot 애플리케이션의 시작점이며, 애플리케이션의 라이프사이클을 관리하고, Spring의 IoC 컨테이너를 시작하며, 자동-구성을 활성화하고, 애플리케이션이 완전히 시작되었음을 알리는 이벤트를 발행하는 역할을 합니다.&lt;/p&gt;
+
+&lt;h2 id=&quot;springboot의-ioc컨테이너에-대해&quot;&gt;Springboot의 IoC컨테이너에 대해&lt;/h2&gt;
+&lt;hr data-content=&quot;핵심&quot; /&gt;
+
+&lt;p&gt;Spring Boot의 IoC(Inversion of Control) 컨테이너는 객체의 생성, 관리 및 제공을 담당하는 Spring Framework의 핵심 부분입니다. 이 컨테이너는 객체 간의 의존성을 자동으로 관리하며, 이로 인해 개발자는 객체 생성과 의존성 설정에 대한 부담 없이 비즈니스 로직에 집중할 수 있습니다.&lt;/p&gt;
+
+&lt;hr data-content=&quot;자세한 설명&quot; /&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;
+    &lt;p&gt;객체 생성: Spring IoC 컨테이너는 애플리케이션의 시작 시점에 구성 파일(Java Config, XML 등)에 기술된 대로 필요한 객체를 생성합니다. 이렇게 생성된 객체들은 Spring에서는 일반적으로 Bean이라고 부릅니다.&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;의존성 주입(Dependency Injection): 생성된 객체들이 서로 간에 의존성을 가지는 경우, Spring IoC 컨테이너는 이 의존성을 자동으로 해결합니다. 이를 통해 객체 간의 결합도를 낮추고 코드의 재사용성과 유지 관리성을 높일 수 있습니다. 의존성 주입은 주로 &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;@Autowired&lt;/code&gt;, &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;@Resource&lt;/code&gt; 등의 어노테이션을 이용해 이루어집니다.&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;객체 제공: Spring IoC 컨테이너는 개발자가 필요로 하는 객체를 제공합니다. 이는 주로 ApplicationContext의 &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;getBean&lt;/code&gt; 메소드를 통해 이루어지며, 필요에 따라 특정 타입의 모든 Bean을 제공하거나 특정 이름의 Bean을 제공할 수 있습니다.&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;생명주기 관리: Spring IoC 컨테이너는 Bean의 생명주기를 관리합니다. Bean이 생성되고, 의존성이 주입된 후 초기화 메소드가 호출됩니다. 애플리케이션 종료 시에는 소멸 메소드가 호출됩니다. 초기화와 소멸 메소드는 각각 &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;@PostConstruct&lt;/code&gt;와 &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;@PreDestroy&lt;/code&gt; 어노테이션을 이용해 지정할 수 있습니다.&lt;/p&gt;
+  &lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;따라서, Spring Boot의 IoC 컨테이너는 객체의 생성부터 제거에 이르는 전 과정을 관리하며, 이를 통해 개발자는 객체의 생성과 관리에 들어가는 노력을 절약하고 애플리케이션의 유연성과 확장성을 높일 수 있습니다.&lt;/p&gt;</content><author><name>Sun Hong Lee</name></author><category term="2023" /><summary type="html"></summary></entry><entry><title type="html">도메인 서비스 &amp;amp; 애플리케이션 서비스</title><link href="http://localhost:4000/%EB%8F%84%EB%A9%94%EC%9D%B8-%EC%84%9C%EB%B9%84%EC%8A%A4-%EC%95%A0%ED%94%8C%EB%A6%AC%EC%BC%80%EC%9D%B4%EC%85%98-%EC%84%9C%EB%B9%84%EC%8A%A4.html" rel="alternate" type="text/html" title="도메인 서비스 &amp;amp; 애플리케이션 서비스" /><published>2022-09-03T00:00:00+09:00</published><updated>2022-09-03T00:00:00+09:00</updated><id>http://localhost:4000/%EB%8F%84%EB%A9%94%EC%9D%B8-%EC%84%9C%EB%B9%84%EC%8A%A4-&amp;-%EC%95%A0%ED%94%8C%EB%A6%AC%EC%BC%80%EC%9D%B4%EC%85%98-%EC%84%9C%EB%B9%84%EC%8A%A4</id><content type="html" xml:base="http://localhost:4000/%EB%8F%84%EB%A9%94%EC%9D%B8-%EC%84%9C%EB%B9%84%EC%8A%A4-%EC%95%A0%ED%94%8C%EB%A6%AC%EC%BC%80%EC%9D%B4%EC%85%98-%EC%84%9C%EB%B9%84%EC%8A%A4.html">&lt;p&gt;도메인 서비스는 &lt;strong&gt;&lt;em&gt;entity&lt;/em&gt;&lt;/strong&gt;와 &lt;strong&gt;&lt;em&gt;value object(VO)&lt;/em&gt;&lt;/strong&gt; 에 자연스럽게 맞지 않는 도메인 정보를 전달한다고 한다. 그러나 도메인 서비스를 도입하려는 또 다른 이유가 있다. 그 이유는 도메인 모델 &lt;strong&gt;격리(Isolation)&lt;/strong&gt; 와 관련이 있다.&lt;/p&gt;
 
 &lt;p&gt;그렇다면, 도메인 서비스와 애플리케이션 서비스의 차이점은 무엇일까. 이 두 개념은 도메인 엔티티와 &lt;strong&gt;&lt;em&gt;value object&lt;/em&gt;&lt;/strong&gt; 위에서 작동할 수 있는 &lt;strong&gt;Stateless class&lt;/strong&gt;를 가정하지만, 유사성은 거의 동일하다. 이들의 주요 차이점은 &lt;strong&gt;도메인 서비스는 도메인 로직을 유지하는 반면 애플리케이션 서비스는 그렇지 않다는 것이다.&lt;/strong&gt;&lt;/p&gt;
 
@@ -800,69 +793,11 @@ console.log(ultimateTruth);
 &lt;a href=&quot;https://docs.oracle.com/javase/tutorial/essential/exceptions/definition.html&quot;&gt;https://docs.oracle.com/javase/tutorial/essential/exceptions/definition.html&lt;/a&gt;          &lt;br /&gt;
 &lt;a href=&quot;https://www.inflearn.com/course/%EC%8A%A4%ED%94%84%EB%A7%81-db-1&quot;&gt;inflearn - 스프링 DB 1편 - 데이터 접근 핵심 원리&lt;/a&gt;&lt;/p&gt;</content><author><name>Sun Hong Lee</name></author><category term="2022" /><summary type="html">예외와 예외 처리를 더 잘 이해하기 위해 현실세계에 빗대어 생각해보자 사용자가 온라인으로 어떤 제품을 주문했는데 배송 도중에 어떠한 사건으로 인하여 배송에 실패하는 상황이 벌어졌을때, 좋은 회사는 이 상황을 처리하고 상품(패키지)이 제 시간에 도착할 수 있도록 패키지를 정상적으로 다시 배송처리할 것이다. 프로그램도 마찬가지로 코드를 실행하는 동안 오류(실패상황)가 발생할 수 있다. 좋은 예외 처리는 뜻밖의 상황을 바로 처리하고 사용자에게 원하는 기능을 그대로 제공하기 위해 프로그램을 정상적으로 재라우팅할 수 있다.</summary></entry><entry><title type="html">About Dev Ceremony</title><link href="http://localhost:4000/about-dev-ceremony.html" rel="alternate" type="text/html" title="About Dev Ceremony" /><published>2021-09-07T00:00:00+09:00</published><updated>2021-09-07T00:00:00+09:00</updated><id>http://localhost:4000/about-dev-ceremony</id><content type="html" xml:base="http://localhost:4000/about-dev-ceremony.html">&lt;h3 id=&quot;dev-ceremony-블로그-소개&quot;&gt;Dev Ceremony 블로그 소개&lt;/h3&gt;
 
-&lt;p&gt;‘Dev Ceremony’라는 타이틀은 다도(茶道)의 의미를 가진 ‘Tea Ceremony’에서 착안하여 만들어진 것이다. 다도는 차 한 잔을 준비하고 마시는 과정을 통해 정진하고, 내면을 깨닫는 일종의 명상과도 같은 행위인데, 이것을 프로그래밍으로 비유하고자 한다.&lt;/p&gt;
+&lt;p&gt;‘Dev Ceremony’라는 타이틀은 다도(茶道)의 의미를 가진 ‘Tea Ceremony’에서 착안하여 만들어진 것이다. 다도는 차 한 잔을 준비하고 마시는 과정을 통해 정진하고, 내면을 깨닫는 일종의 명상과도 같은 행위인데, 이것을 코드를 작성하는 과정으로 비유하고자 한다.&lt;/p&gt;
 
-&lt;p&gt;다도의 가치는 차를 끓이고 준비해서 마시는 단순한 행위를 넘어서, 마음가짐과 기술을 다듬으며 차의 본질을 이해하는 과정에서 생겨난다. 이처럼 개발자로서도 기본기를 탄탄히 다지고, 코드를 작성하면서 그 코드의 본질과 그 코드가 하는 일을 이해하는 것이 중요하다고 생각한다.&lt;/p&gt;
+&lt;p&gt;다도의 가치는 차를 끓이고 준비해서 마시는 단순한 행위를 넘어서, 마음가짐과 기술을 다듬으며 차의 본질을 이해하는 과정에서 생겨난다. 비슷한 맥락에서 생각해보면 단순히 코드를 작성하는 행위 그 자체를 넘어서, 기본기를 탄탄히 다지고, 작성하는 코드의 본질과 그 코드가 수행하는 역할을 깊이 이해하는 것이 중요하다고 생각한다.&lt;/p&gt;
 
-&lt;p&gt;내가 학습하고 성장하는 과정을 기록하며, 그 과정 속에서 개발의 본질을 깨닫고 도구와 기술에 대한 깊은 이해를 얻고자 한다. 이러한 일련의 과정을 ‘Dev Ceremony’라 하고 싶다.&lt;/p&gt;</content><author><name>Sun Hong Lee</name></author><category term="info" /><summary type="html">Dev Ceremony 블로그 소개</summary></entry><entry><title type="html">Post Example With Hr</title><link href="http://localhost:4000/post-example-with-hr.html" rel="alternate" type="text/html" title="Post Example With Hr" /><published>2020-07-09T00:00:00+09:00</published><updated>2020-07-09T00:00:00+09:00</updated><id>http://localhost:4000/post-example-with-hr</id><content type="html" xml:base="http://localhost:4000/post-example-with-hr.html">&lt;p&gt;Lorem ipsum&lt;sup id=&quot;fnref:1&quot; role=&quot;doc-noteref&quot;&gt;&lt;a href=&quot;#fn:1&quot; class=&quot;footnote&quot; rel=&quot;footnote&quot;&gt;1&lt;/a&gt;&lt;/sup&gt; dolor sit amet, consectetur adipiscing elit. Pellentesque vel lacinia neque. Praesent nulla quam, ullamcorper in sollicitudin ac, molestie sed justo. Cras aliquam, sapien id consectetur accumsan, augue magna faucibus ex, ut ultricies turpis tortor vel ante. In at rutrum tellus. Nullam vestibulum metus eu purus malesuada, volutpat mattis leo facilisis. Sed consectetur, nisl et semper laoreet, velit augue congue nunc, eget eleifend odio erat eu sapien. Phasellus dictum efficitur dapibus. Morbi porta lacinia tincidunt. Nam aliquet est mi, nec lacinia ipsum elementum sed. Nam feugiat ipsum tortor, et pretium purus sollicitudin et.&lt;/p&gt;
-
-&lt;hr /&gt;
-
-&lt;p&gt;Mauris viverra dictum ultricies&lt;sup id=&quot;fnref:2&quot; role=&quot;doc-noteref&quot;&gt;&lt;a href=&quot;#fn:2&quot; class=&quot;footnote&quot; rel=&quot;footnote&quot;&gt;2&lt;/a&gt;&lt;/sup&gt;. Vestibulum&lt;sup id=&quot;fnref:3&quot; role=&quot;doc-noteref&quot;&gt;&lt;a href=&quot;#fn:3&quot; class=&quot;footnote&quot; rel=&quot;footnote&quot;&gt;3&lt;/a&gt;&lt;/sup&gt; quis ipsum euismod, facilisis metus sed, varius ipsum. Donec scelerisque lacus libero, eu dignissim sem venenatis at. Nunc a egestas tortor, sed feugiat leo. Vestibulum porta tincidunt tellus, vitae ornare tortor. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Sed nunc neque, tempor in iaculis non, faucibus et metus. Etiam id nisl ut lorem gravida euismod.&lt;/p&gt;
-
-&lt;p&gt;Fusce non velit cursus ligula mattis convallis vel at metus. Sed pharetra tellus massa, non elementum eros vulputate non. Suspendisse potenti. Quisque arcu felis, laoreet vel accumsan sit amet, fermentum at nunc. Sed massa quam, auctor in eros quis, porttitor tincidunt orci. Nulla convallis id sapien ornare viverra. Cras nec est lacinia ligula porta tincidunt. Nam a est eget ligula pellentesque posuere. Maecenas quis enim ac risus accumsan scelerisque. Aliquam vitae libero sapien. Etiam convallis, metus nec suscipit condimentum, quam massa congue velit, sit amet sollicitudin nisi tortor a lectus. Cras a arcu enim. Suspendisse hendrerit euismod est ac gravida. Donec vitae elit tristique, suscipit eros at, aliquam augue. In ac faucibus dui. Sed tempor lacus tristique elit sagittis, vitae tempor massa convallis.&lt;/p&gt;
-
-&lt;hr data-content=&quot;discussions&quot; /&gt;
-
-&lt;p&gt;This article has been discussed here:&lt;/p&gt;
-&lt;ul&gt;
-  &lt;li&gt;&lt;a href=&quot;#&quot;&gt;lobste.rs&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;#&quot;&gt;/r/webdev&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;Feel free to reach out at my email to leave feedback and talk about the article.&lt;/p&gt;
-
-&lt;hr data-content=&quot;footnotes&quot; /&gt;
-
-&lt;div class=&quot;footnotes&quot; role=&quot;doc-endnotes&quot;&gt;
-  &lt;ol&gt;
-    &lt;li id=&quot;fn:1&quot; role=&quot;doc-endnote&quot;&gt;
-      &lt;p&gt;Okay here I should put something about “ipsum”. &lt;a href=&quot;#fnref:1&quot; class=&quot;reversefootnote&quot; role=&quot;doc-backlink&quot;&gt;&amp;#8617;&lt;/a&gt;&lt;/p&gt;
-    &lt;/li&gt;
-    &lt;li id=&quot;fn:2&quot; role=&quot;doc-endnote&quot;&gt;
-      &lt;p&gt;same goes for this. &lt;a href=&quot;#fnref:2&quot; class=&quot;reversefootnote&quot; role=&quot;doc-backlink&quot;&gt;&amp;#8617;&lt;/a&gt;&lt;/p&gt;
-    &lt;/li&gt;
-    &lt;li id=&quot;fn:3&quot; role=&quot;doc-endnote&quot;&gt;
-      &lt;p&gt;I studied latin in high school but im not able to translate &lt;em&gt;anything&lt;/em&gt;! By the way this is a longer footnote and i think it is still pretty cool, even prettier than shortier ones even though it does not say anything useful but whatever. &lt;a href=&quot;#fnref:3&quot; class=&quot;reversefootnote&quot; role=&quot;doc-backlink&quot;&gt;&amp;#8617;&lt;/a&gt;&lt;/p&gt;
-    &lt;/li&gt;
-  &lt;/ol&gt;
-&lt;/div&gt;</content><author><name>Sun Hong Lee</name></author><category term="2020" /><summary type="html">Lorem ipsum1 dolor sit amet, consectetur adipiscing elit. Pellentesque vel lacinia neque. Praesent nulla quam, ullamcorper in sollicitudin ac, molestie sed justo. Cras aliquam, sapien id consectetur accumsan, augue magna faucibus ex, ut ultricies turpis tortor vel ante. In at rutrum tellus. Nullam vestibulum metus eu purus malesuada, volutpat mattis leo facilisis. Sed consectetur, nisl et semper laoreet, velit augue congue nunc, eget eleifend odio erat eu sapien. Phasellus dictum efficitur dapibus. Morbi porta lacinia tincidunt. Nam aliquet est mi, nec lacinia ipsum elementum sed. Nam feugiat ipsum tortor, et pretium purus sollicitudin et. Okay here I should put something about “ipsum”. &amp;#8617;</summary></entry><entry><title type="html">Post Example With Headings And Toc</title><link href="http://localhost:4000/post-example-with-headings-and-toc.html" rel="alternate" type="text/html" title="Post Example With Headings And Toc" /><published>2020-07-09T00:00:00+09:00</published><updated>2020-07-09T00:00:00+09:00</updated><id>http://localhost:4000/post-example-with-headings-and-toc</id><content type="html" xml:base="http://localhost:4000/post-example-with-headings-and-toc.html">&lt;p&gt;Mauris viverra dictum ultricies. Vestibulum quis ipsum euismod, facilisis metus sed, varius ipsum. Donec scelerisque lacus libero, eu dignissim sem venenatis at. Nunc a egestas tortor, sed feugiat leo.&lt;/p&gt;
-
-&lt;h2 id=&quot;table-of-contents&quot;&gt;Table of contents&lt;/h2&gt;
-&lt;ul&gt;
-  &lt;li&gt;&lt;a href=&quot;#table-of-contents&quot;&gt;Table of contents&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;#the-start&quot;&gt;The start&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;#the-middle&quot;&gt;The middle&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;#the-end&quot;&gt;The end&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;Mauris viverra dictum ultricies. Vestibulum quis ipsum euismod, facilisis metus sed, varius ipsum. Donec scelerisque lacus libero, eu dignissim sem venenatis at. Nunc a egestas tortor, sed feugiat leo. Vestibulum porta tincidunt tellus, vitae ornare tortor. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Sed nunc neque, tempor in iaculis non, faucibus et metus. Etiam id nisl ut lorem gravida euismod.&lt;/p&gt;
-
-&lt;h2 id=&quot;the-start&quot;&gt;&lt;a href=&quot;#the-start&quot;&gt;The start&lt;/a&gt;&lt;/h2&gt;
-
-&lt;p&gt;Fusce non velit cursus ligula mattis convallis vel at metus. Sed pharetra tellus massa, non elementum eros vulputate non. Suspendisse potenti. Quisque arcu felis, laoreet vel accumsan sit amet, fermentum at nunc. Sed massa quam, auctor in eros quis, porttitor tincidunt orci. Nulla convallis id sapien ornare viverra. Cras nec est lacinia ligula porta tincidunt. Nam a est eget ligula pellentesque posuere. Maecenas quis enim ac risus accumsan scelerisque. Aliquam vitae libero sapien. Etiam convallis, metus nec suscipit condimentum, quam massa congue velit, sit amet sollicitudin nisi tortor a lectus. Cras a arcu enim. Suspendisse hendrerit euismod est ac gravida. Donec vitae elit tristique, suscipit eros at, aliquam augue. In ac faucibus dui. Sed tempor lacus tristique elit sagittis, vitae tempor massa convallis.&lt;/p&gt;
-
-&lt;h2 id=&quot;the-middle&quot;&gt;&lt;a href=&quot;#the-middle&quot;&gt;The middle&lt;/a&gt;&lt;/h2&gt;
-
-&lt;p&gt;Proin quis velit et eros auctor laoreet. Aenean eget nibh odio. Suspendisse mollis enim pretium, fermentum urna vitae, egestas purus. Donec convallis tincidunt purus, scelerisque fermentum eros sagittis vel. Aliquam ac aliquet risus, tempus iaculis est. Fusce molestie mauris non interdum hendrerit. Curabitur ullamcorper, eros vitae interdum volutpat, lacus magna lacinia turpis, at accumsan dui tortor vel lectus. Aenean risus massa, semper non lectus rutrum, facilisis imperdiet mi. Praesent sed quam quis purus auctor ornare et sed augue. Vestibulum non quam quis ligula luctus placerat sed sit amet erat. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae; Fusce auctor, sem eu volutpat dignissim, turpis nibh malesuada arcu, in consequat elit mauris quis sem. Nam tristique sit amet enim vel accumsan. Sed id nibh commodo, dictum sem id, semper quam.&lt;/p&gt;
-
-&lt;h2 id=&quot;the-end&quot;&gt;The end&lt;/h2&gt;
-
-&lt;p&gt;Donec ex lectus, tempus non lacinia quis, pretium non ipsum. Praesent est nunc, rutrum vel tellus eu, tristique laoreet purus. In rutrum orci sit amet ex ornare, sit amet finibus lacus laoreet. Etiam ac facilisis purus, eget porttitor odio. Suspendisse tempus dolor nec risus sodales posuere. Proin dui dui, mollis a consectetur molestie, lobortis vitae tellus. Vivamus at purus sed urna sollicitudin mattis. Mauris lacinia libero in lobortis pulvinar. Nullam sit amet condimentum justo. Donec orci justo, pharetra ut dolor non, interdum finibus orci. Proin vitae ante a dui sodales commodo ac id elit. Nunc vel accumsan nunc, sit amet congue nunc. Aliquam in lacinia velit. Integer lobortis luctus eros, in fermentum metus aliquet a. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos.&lt;/p&gt;</content><author><name>Sun Hong Lee</name></author><category term="2020" /><summary type="html">Mauris viverra dictum ultricies. Vestibulum quis ipsum euismod, facilisis metus sed, varius ipsum. Donec scelerisque lacus libero, eu dignissim sem venenatis at. Nunc a egestas tortor, sed feugiat leo.</summary></entry><entry><title type="html">Language Tests</title><link href="http://localhost:4000/language-tests.html" rel="alternate" type="text/html" title="Language Tests" /><published>2020-07-08T00:00:00+09:00</published><updated>2020-07-08T00:00:00+09:00</updated><id>http://localhost:4000/language-tests</id><content type="html" xml:base="http://localhost:4000/language-tests.html">&lt;p&gt;Note: I took this test post from &lt;a href=&quot;https://github.com/huangyz0918/moving&quot;&gt;moving&lt;/a&gt;, which is another Jekyll theme which is better that this one so I should not have linked it because now you will decide to use it instead of mine.&lt;/p&gt;
-
-&lt;h3 id=&quot;1-한국어&quot;&gt;1. 한국어&lt;/h3&gt;
-
-&lt;p&gt;나눔 스퀘어 네오 폰트 테스트&lt;/p&gt;</content><author><name>Sun Hong Lee</name></author><category term="2020" /><summary type="html">Note: I took this test post from moving, which is another Jekyll theme which is better that this one so I should not have linked it because now you will decide to use it instead of mine.</summary></entry><entry><title type="html">Very Very Very Long Title And Very Very Very Short Content</title><link href="http://localhost:4000/very-very-very-long-title-and-very-very-very-short-content.html" rel="alternate" type="text/html" title="Very Very Very Long Title And Very Very Very Short Content" /><published>2020-07-08T00:00:00+09:00</published><updated>2020-07-08T00:00:00+09:00</updated><id>http://localhost:4000/very-very-very-long-title-and-very-very-very-short-content</id><content type="html" xml:base="http://localhost:4000/very-very-very-long-title-and-very-very-very-short-content.html">&lt;p&gt;Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque vel lacinia neque. Praesent nulla quam, ullamcorper in sollicitudin ac, molestie sed justo. Cras aliquam, sapien id consectetur accumsan, augue magna faucibus ex, ut ultricies turpis tortor vel ante. In at rutrum tellus. Nullam vestibulum metus eu purus malesuada, volutpat mattis leo facilisis.&lt;/p&gt;</content><author><name>Sun Hong Lee</name></author><category term="2020" /><summary type="html">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque vel lacinia neque. Praesent nulla quam, ullamcorper in sollicitudin ac, molestie sed justo. Cras aliquam, sapien id consectetur accumsan, augue magna faucibus ex, ut ultricies turpis tortor vel ante. In at rutrum tellus. Nullam vestibulum metus eu purus malesuada, volutpat mattis leo facilisis.</summary></entry><entry><title type="html">Overview Post</title><link href="http://localhost:4000/overview-post.html" rel="alternate" type="text/html" title="Overview Post" /><published>2020-07-07T00:00:00+09:00</published><updated>2020-07-07T00:00:00+09:00</updated><id>http://localhost:4000/overview-post</id><content type="html" xml:base="http://localhost:4000/overview-post.html">&lt;p&gt;Lorem ipsum&lt;sup id=&quot;fnref:1&quot; role=&quot;doc-noteref&quot;&gt;&lt;a href=&quot;#fn:1&quot; class=&quot;footnote&quot; rel=&quot;footnote&quot;&gt;1&lt;/a&gt;&lt;/sup&gt; dolor sit amet, consectetur adipiscing elit. Pellentesque vel lacinia neque. Praesent nulla quam, ullamcorper in sollicitudin ac, molestie sed justo. Cras aliquam, sapien id consectetur accumsan, augue magna faucibus ex, ut ultricies turpis tortor vel ante. In at rutrum tellus.&lt;/p&gt;
+&lt;p&gt;내가 학습하고 성장하는 과정을 기록하며, 그 과정 속에서 개발의 본질을 깨닫고 도구와 기술에 대한 깊은 이해를 얻고자 한다. 이러한 일련의 과정을 ‘Dev Ceremony’라 하고 싶다.&lt;/p&gt;</content><author><name>Sun Hong Lee</name></author><category term="info" /><summary type="html">Dev Ceremony 블로그 소개</summary></entry><entry><title type="html">Strange Post</title><link href="http://localhost:4000/strange-post.html" rel="alternate" type="text/html" title="Strange Post" /><published>2020-07-06T00:00:00+09:00</published><updated>2020-07-06T00:00:00+09:00</updated><id>http://localhost:4000/strange-post</id><content type="html" xml:base="http://localhost:4000/strange-post.html">&lt;p&gt;This post is strange. It also has some custom js.&lt;/p&gt;</content><author><name>Sun Hong Lee</name></author><category term="2020" /><summary type="html">This post is strange. It also has some custom js.</summary></entry><entry><title type="html">Sample Post</title><link href="http://localhost:4000/sample-post.html" rel="alternate" type="text/html" title="Sample Post" /><published>2020-01-01T00:00:00+09:00</published><updated>2020-01-01T00:00:00+09:00</updated><id>http://localhost:4000/sample-post</id><content type="html" xml:base="http://localhost:4000/sample-post.html">&lt;p&gt;Lorem ipsum&lt;sup id=&quot;fnref:1&quot; role=&quot;doc-noteref&quot;&gt;&lt;a href=&quot;#fn:1&quot; class=&quot;footnote&quot; rel=&quot;footnote&quot;&gt;1&lt;/a&gt;&lt;/sup&gt; dolor sit amet, consectetur adipiscing elit. Pellentesque vel lacinia neque. Praesent nulla quam, ullamcorper in sollicitudin ac, molestie sed justo. Cras aliquam, sapien id consectetur accumsan, augue magna faucibus ex, ut ultricies turpis tortor vel ante. In at rutrum tellus.&lt;/p&gt;
 
 &lt;h1 id=&quot;sample-heading-1&quot;&gt;Sample heading 1&lt;/h1&gt;
 &lt;h2 id=&quot;sample-heading-2&quot;&gt;Sample heading 2&lt;/h2&gt;
@@ -976,4 +911,4 @@ console.log(ultimateTruth);
       &lt;p&gt;this is a very very long footnote to test if a very very long footnote brings some problems or not. I strongly hope that there are no problems but you know sometimes problems arise from nowhere. &lt;a href=&quot;#fnref:4&quot; class=&quot;reversefootnote&quot; role=&quot;doc-backlink&quot;&gt;&amp;#8617;&lt;/a&gt;&lt;/p&gt;
     &lt;/li&gt;
   &lt;/ol&gt;
-&lt;/div&gt;</content><author><name>Sun Hong Lee</name></author><category term="2020" /><summary type="html">Lorem ipsum1 dolor sit amet, consectetur adipiscing elit. Pellentesque vel lacinia neque. Praesent nulla quam, ullamcorper in sollicitudin ac, molestie sed justo. Cras aliquam, sapien id consectetur accumsan, augue magna faucibus ex, ut ultricies turpis tortor vel ante. In at rutrum tellus. this is a footnote. It should highlight if you click on the corresponding superscript number. &amp;#8617;</summary></entry><entry><title type="html">Strange Post</title><link href="http://localhost:4000/strange-post.html" rel="alternate" type="text/html" title="Strange Post" /><published>2020-07-06T00:00:00+09:00</published><updated>2020-07-06T00:00:00+09:00</updated><id>http://localhost:4000/strange-post</id><content type="html" xml:base="http://localhost:4000/strange-post.html">&lt;p&gt;This post is strange. It also has some custom js.&lt;/p&gt;</content><author><name>Sun Hong Lee</name></author><category term="2020" /><summary type="html">This post is strange. It also has some custom js.</summary></entry></feed>
+&lt;/div&gt;</content><author><name>Sun Hong Lee</name></author><category term="2020" /><summary type="html">Lorem ipsum1 dolor sit amet, consectetur adipiscing elit. Pellentesque vel lacinia neque. Praesent nulla quam, ullamcorper in sollicitudin ac, molestie sed justo. Cras aliquam, sapien id consectetur accumsan, augue magna faucibus ex, ut ultricies turpis tortor vel ante. In at rutrum tellus. this is a footnote. It should highlight if you click on the corresponding superscript number. &amp;#8617;</summary></entry></feed>
