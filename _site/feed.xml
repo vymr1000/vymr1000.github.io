@@ -1,11 +1,9 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.3.2">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2023-07-08T16:21:04+09:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">Dev Ceremony</title><subtitle>A (nearly) no-CSS, fast, minimalist Jekyll theme.
-</subtitle><author><name>Sun Hong Lee</name></author><entry><title type="html">Spring에 관한 질문 및 응답</title><link href="http://localhost:4000/spring%EC%97%90-%EA%B4%80%ED%95%9C-%EC%A7%88%EB%AC%B8-%EB%B0%8F-%EC%9D%91%EB%8B%B5.html" rel="alternate" type="text/html" title="Spring에 관한 질문 및 응답" /><published>2023-06-29T00:00:00+09:00</published><updated>2023-06-29T00:00:00+09:00</updated><id>http://localhost:4000/spring%EC%97%90-%EA%B4%80%ED%95%9C-%EC%A7%88%EB%AC%B8-%EB%B0%8F-%EC%9D%91%EB%8B%B5</id><content type="html" xml:base="http://localhost:4000/spring%EC%97%90-%EA%B4%80%ED%95%9C-%EC%A7%88%EB%AC%B8-%EB%B0%8F-%EC%9D%91%EB%8B%B5.html">&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.3.2">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2023-07-08T23:53:08+09:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">Dev Ceremony</title><subtitle>A (nearly) no-CSS, fast, minimalist Jekyll theme.
+</subtitle><author><name>Sun Hong Lee</name></author><entry><title type="html">Spring에 관한 필수 지식들</title><link href="http://localhost:4000/spring%EC%97%90-%EA%B4%80%ED%95%9C-%ED%95%84%EC%88%98-%EC%A7%80%EC%8B%9D%EB%93%A4.html" rel="alternate" type="text/html" title="Spring에 관한 필수 지식들" /><published>2023-06-29T00:00:00+09:00</published><updated>2023-06-29T00:00:00+09:00</updated><id>http://localhost:4000/spring%EC%97%90-%EA%B4%80%ED%95%9C-%ED%95%84%EC%88%98-%EC%A7%80%EC%8B%9D%EB%93%A4</id><content type="html" xml:base="http://localhost:4000/spring%EC%97%90-%EA%B4%80%ED%95%9C-%ED%95%84%EC%88%98-%EC%A7%80%EC%8B%9D%EB%93%A4.html">&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
 
 &lt;blockquote&gt;
   &lt;p&gt;Spring 및 SpringBoot의 구조, 동작과정 및 기본 원리에 대한 개념 정리&lt;/p&gt;
 &lt;/blockquote&gt;
-
-&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
 
 &lt;h2 id=&quot;spring의-동작과정에-대해&quot;&gt;Spring의 동작과정에 대해&lt;/h2&gt;
 
@@ -306,19 +304,17 @@
 
 &lt;p&gt;또한, Spring Batch는 재시작 가능성이라는 중요한 특징을 가지고 있습니다. 청크 단위의 트랜잭션 관리는 이러한 재시작 가능성을 지원하는 핵심 요소 중 하나입니다. 청크 단위로 트랜잭션을 관리하면, 실패한 청크를 쉽게 식별하고 해당 청크부터 재시작할 수 있습니다.&lt;/p&gt;
 
-&lt;p&gt;즉, Spring Batch의 트랜잭션 관리는 청크 단위의 트랜잭션 경계 설정을 통해 안정성과 재시작 가능성을 보장하며, 대용량 데이터 처리를 효율적으로 수행할 수 있도록 지원합니다. 이는 Spring Batch를 통한 배치 처리가 대량의 데이터를 안정적으로 처리해야 하는 많은 비즈니스 케이스에 적합하게 만듭니다.&lt;/p&gt;</content><author><name>Sun Hong Lee</name></author><category term="2023" /><summary type="html"></summary></entry><entry><title type="html">Java에 관한 질문 및 응답</title><link href="http://localhost:4000/java%EC%97%90-%EA%B4%80%ED%95%9C-%EC%A7%88%EB%AC%B8-%EB%B0%8F-%EC%9D%91%EB%8B%B5.html" rel="alternate" type="text/html" title="Java에 관한 질문 및 응답" /><published>2023-06-27T00:00:00+09:00</published><updated>2023-06-27T00:00:00+09:00</updated><id>http://localhost:4000/java%EC%97%90-%EA%B4%80%ED%95%9C-%EC%A7%88%EB%AC%B8-%EB%B0%8F-%EC%9D%91%EB%8B%B5</id><content type="html" xml:base="http://localhost:4000/java%EC%97%90-%EA%B4%80%ED%95%9C-%EC%A7%88%EB%AC%B8-%EB%B0%8F-%EC%9D%91%EB%8B%B5.html">&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+&lt;p&gt;즉, Spring Batch의 트랜잭션 관리는 청크 단위의 트랜잭션 경계 설정을 통해 안정성과 재시작 가능성을 보장하며, 대용량 데이터 처리를 효율적으로 수행할 수 있도록 지원합니다. 이는 Spring Batch를 통한 배치 처리가 대량의 데이터를 안정적으로 처리해야 하는 많은 비즈니스 케이스에 적합하게 만듭니다.&lt;/p&gt;</content><author><name>Sun Hong Lee</name></author><category term="2023" /><summary type="html"></summary></entry><entry><title type="html">Java에 관한 필수 지식들</title><link href="http://localhost:4000/java%EC%97%90-%EA%B4%80%ED%95%9C-%ED%95%84%EC%88%98-%EC%A7%80%EC%8B%9D%EB%93%A4.html" rel="alternate" type="text/html" title="Java에 관한 필수 지식들" /><published>2023-06-27T00:00:00+09:00</published><updated>2023-06-27T00:00:00+09:00</updated><id>http://localhost:4000/java%EC%97%90-%EA%B4%80%ED%95%9C-%ED%95%84%EC%88%98-%EC%A7%80%EC%8B%9D%EB%93%A4</id><content type="html" xml:base="http://localhost:4000/java%EC%97%90-%EA%B4%80%ED%95%9C-%ED%95%84%EC%88%98-%EC%A7%80%EC%8B%9D%EB%93%A4.html">&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
 
 &lt;blockquote&gt;
   &lt;p&gt;Java의 기본 원리에 대한 개념 정리&lt;/p&gt;
 &lt;/blockquote&gt;
 
-&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
-
 &lt;h2 id=&quot;java-언어의-특징에-대해&quot;&gt;Java 언어의 특징에 대해&lt;/h2&gt;
 
 &lt;hr data-content=&quot;핵심&quot; /&gt;
 
-&lt;p&gt;Java는 객체지향, 플랫폼 독립적, 안정성이 높고, 다양한 환경에서 널리 사용되는 프로그래밍 언어입니다.&lt;/p&gt;
+&lt;p&gt;Java는 &lt;strong&gt;객체지향적&lt;/strong&gt;이고, &lt;strong&gt;플랫폼 독립적&lt;/strong&gt;이며, 안정성이 높아 다양한 환경에서 널리 사용되는 프로그래밍 언어입니다.&lt;/p&gt;
 
 &lt;hr data-content=&quot;자세한 설명&quot; /&gt;
 
@@ -327,7 +323,7 @@
     &lt;p&gt;객체지향: Java는 완전한 객체지향 프로그래밍 언어입니다. 클래스와 객체를 기반으로 상속, 다형성, 캡슐화와 같은 객체지향의 핵심 개념을 지원합니다.&lt;/p&gt;
   &lt;/li&gt;
   &lt;li&gt;
-    &lt;p&gt;플랫폼 독립성: Java의 가장 큰 특징 중 하나는 “Write Once, Run Anywhere”이라는 원칙을 따르는 것입니다. 즉, Java로 작성된 프로그램은 Java Virtual Machine(JVM)이 설치된 어떤 플랫폼에서도 실행할 수 있습니다.&lt;/p&gt;
+    &lt;p&gt;플랫폼 독립성: Java의 가장 큰 특징 중 하나는 &lt;strong&gt;Write Once, Run Anywhere&lt;/strong&gt;이라는 원칙을 따르는 것입니다. 즉, Java로 작성된 프로그램은 Java Virtual Machine(JVM)이 설치된 어떤 플랫폼에서도 실행할 수 있습니다.&lt;/p&gt;
   &lt;/li&gt;
   &lt;li&gt;
     &lt;p&gt;안정성: Java는 컴파일 시간과 실행 시간 모두에 걸쳐 강력한 오류 체크 기능을 제공하여 프로그램의 안정성을 높입니다. 또한, 자동 메모리 관리 기능인 가비지 컬렉션을 지원하여 메모리 누수 문제를 방지합니다.&lt;/p&gt;
@@ -349,20 +345,34 @@
 
 &lt;hr data-content=&quot;핵심&quot; /&gt;
 
-&lt;p&gt;자바 프로그램이 실행되는 과정은 크게 소스 코드의 작성, 컴파일, 로드, 링크, 초기화, 그리고 실행 단계로 이루어집니다.&lt;/p&gt;
+&lt;p&gt;자바 프로그램이 실행되는 과정은 크게 소스 코드의 작성, &lt;strong&gt;컴파일&lt;/strong&gt;, &lt;strong&gt;클래스 로드&lt;/strong&gt;, &lt;strong&gt;링크&lt;/strong&gt;, &lt;strong&gt;초기화&lt;/strong&gt;, 그리고 실행 단계로 이루어집니다.&lt;/p&gt;
 
 &lt;hr data-content=&quot;자세한 설명&quot; /&gt;
 
 &lt;ol&gt;
-  &lt;li&gt;소스 코드 작성: 프로그래머는 자바의 문법을 이용해 ‘.java’ 확장자를 가진 자바 소스 코드 파일을 작성합니다.&lt;/li&gt;
-  &lt;li&gt;컴파일: 작성된 소스 코드는 자바 컴파일러(‘javac’)에 의해 바이트코드로 변환되며, 이 결과 ‘.class’ 확장자를 가진 파일이 생성됩니다. 바이트코드는 플랫폼에 독립적인 코드로서, 모든 환경의 JVM에서 동일하게 실행될 수 있습니다.&lt;/li&gt;
-  &lt;li&gt;클래스 로딩: 런타임 시, JVM의 클래스 로더는 필요한 클래스 파일들을 로드합니다. 클래스 로더는 파일 시스템이나 네트워크 등에서 바이트코드가 담긴 ‘.class’ 파일을 찾아 메모리에 적재하는 역할을 합니다.&lt;/li&gt;
+  &lt;li&gt;소스 코드 작성: 프로그래머는 자바의 문법을 이용해 &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;.java&lt;/code&gt; 확장자를 가진 자바 소스 코드 파일을 작성합니다.&lt;/li&gt;
+  &lt;li&gt;컴파일: 작성된 소스 코드는 자바 컴파일러(‘javac’)에 의해 바이트코드로 변환되며, 이 결과 &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;.class&lt;/code&gt; 확장자를 가진 파일이 생성됩니다. 바이트코드는 플랫폼에 독립적인 코드로서, 모든 환경의 JVM에서 동일하게 실행될 수 있습니다.&lt;/li&gt;
+  &lt;li&gt;클래스 로딩: 런타임 시, JVM의 클래스 로더는 필요한 클래스 파일들을 로드합니다. 클래스 로더는 파일 시스템이나 네트워크 등에서 바이트코드가 담긴 &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;.class&lt;/code&gt; 파일을 찾아 메모리에 적재하는 역할을 합니다.&lt;/li&gt;
   &lt;li&gt;링크: 로딩된 클래스들은 링크 과정을 거쳐서 JVM이 사용할 수 있는 상태로 준비됩니다. 이 과정은 검증, 준비, 그리고 (선택적으로) 해석 단계를 포함하며, 클래스나 인터페이스의 바이트코드 검증, 정적 변수의 메모리 할당과 초기화, 그리고 바이트코드의 심볼릭 메모리 참조를 메서드 영역의 직접 참조로 변환하는 작업 등을 수행합니다.&lt;/li&gt;
   &lt;li&gt;초기화: 스태틱 변수들이 초기 값으로 대체되고, 스태틱 블록이 실행됩니다. 이 과정은 클래스가 처음으로 활성화 될 때 수행됩니다.&lt;/li&gt;
   &lt;li&gt;실행: JVM의 실행 엔진이 바이트코드를 해석하거나 JIT 컴파일러를 이용해 네이티브 코드로 변환한 후 실행합니다.&lt;/li&gt;
 &lt;/ol&gt;
 
 &lt;p&gt;이런 식으로, 자바 프로그램은 작성부터 실행까지 여러 단계를 거치며, 이 각각의 단계에서 발생할 수 있는 오류나 이슈를 이해하고 대응하는 것이 자바 개발자의 중요한 역량 중 하나입니다.&lt;/p&gt;
+
+&lt;h2 id=&quot;main-메서드에서-static이-생략된다면&quot;&gt;main 메서드에서 static이 생략된다면&lt;/h2&gt;
+
+&lt;hr data-content=&quot;핵심&quot; /&gt;
+
+&lt;p&gt;Java에서 main 메서드에 static 키워드가 생략된다면, 프로그램은 실행되지 않습니다.&lt;/p&gt;
+
+&lt;hr data-content=&quot;자세한 설명&quot; /&gt;
+
+&lt;p&gt;Java 애플리케이션의 진입점인 &lt;strong&gt;main 메서드는 JVM이 클래스 로딩 없이 호출&lt;/strong&gt;할 수 있어야 합니다. 이를 위해 main 메서드는 static으로 선언되어야 합니다. static 키워드는 메서드가 객체 인스턴스에 속하지 않고 클래스 자체에 속하도록 지정합니다. 따라서 객체를 생성하지 않고도 호출이 가능합니다.&lt;/p&gt;
+
+&lt;p&gt;따라서 main 메서드에 static 키워드가 생략된다면, JVM은 main 메서드를 찾을 수 없게 되므로 프로그램은 시작되지 않습니다. 이때는 “Main method not found in class”라는 오류 메시지가 표시됩니다.&lt;/p&gt;
+
+&lt;p&gt;정리하자면, Java 프로그램의 실행을 위해서는 main 메서드를 static으로 선언해야 하며, 이를 생략하면 프로그램이 실행되지 않습니다.&lt;/p&gt;
 
 &lt;h2 id=&quot;jvm의-역할에-대해&quot;&gt;JVM의 역할에 대해&lt;/h2&gt;
 
@@ -394,7 +404,86 @@
   &lt;li&gt;스택 영역(Stack Area): 각 스레드마다 하나씩 존재하며, 메소드의 호출과 과정에서 중간 결과를 저장하고, &lt;strong&gt;메소드가 작업을 수행하는 동안 로컬 변수를 저장&lt;/strong&gt;하는 등의 역할을 합니다.&lt;/li&gt;
   &lt;li&gt;PC 레지스터(PC Register): 현재 수행 중인 JVM 명령의 주소를 저장합니다. 이 레지스터 역시 스레드마다 하나씩 생성됩니다.&lt;/li&gt;
   &lt;li&gt;네이티브 메소드 스택(Native Method Stack): 네이티브 메소드를 위한 스택입니다. 자바 외의 언어로 작성된 네이티브 코드를 위한 공간입니다.&lt;/li&gt;
-&lt;/ol&gt;</content><author><name>Sun Hong Lee</name></author><category term="2023" /><summary type="html"></summary></entry><entry><title type="html">도메인 서비스 &amp;amp; 애플리케이션 서비스</title><link href="http://localhost:4000/%EB%8F%84%EB%A9%94%EC%9D%B8-%EC%84%9C%EB%B9%84%EC%8A%A4-%EC%95%A0%ED%94%8C%EB%A6%AC%EC%BC%80%EC%9D%B4%EC%85%98-%EC%84%9C%EB%B9%84%EC%8A%A4.html" rel="alternate" type="text/html" title="도메인 서비스 &amp;amp; 애플리케이션 서비스" /><published>2022-09-03T00:00:00+09:00</published><updated>2022-09-03T00:00:00+09:00</updated><id>http://localhost:4000/%EB%8F%84%EB%A9%94%EC%9D%B8-%EC%84%9C%EB%B9%84%EC%8A%A4-&amp;-%EC%95%A0%ED%94%8C%EB%A6%AC%EC%BC%80%EC%9D%B4%EC%85%98-%EC%84%9C%EB%B9%84%EC%8A%A4</id><content type="html" xml:base="http://localhost:4000/%EB%8F%84%EB%A9%94%EC%9D%B8-%EC%84%9C%EB%B9%84%EC%8A%A4-%EC%95%A0%ED%94%8C%EB%A6%AC%EC%BC%80%EC%9D%B4%EC%85%98-%EC%84%9C%EB%B9%84%EC%8A%A4.html">&lt;p&gt;도메인 서비스는 &lt;strong&gt;&lt;em&gt;entity&lt;/em&gt;&lt;/strong&gt;와 &lt;strong&gt;&lt;em&gt;value object(VO)&lt;/em&gt;&lt;/strong&gt; 에 자연스럽게 맞지 않는 도메인 정보를 전달한다고 한다. 그러나 도메인 서비스를 도입하려는 또 다른 이유가 있다. 그 이유는 도메인 모델 &lt;strong&gt;격리(Isolation)&lt;/strong&gt; 와 관련이 있다.&lt;/p&gt;
+&lt;/ol&gt;
+
+&lt;h2 id=&quot;java-stream에-대해&quot;&gt;Java Stream에 대해&lt;/h2&gt;
+
+&lt;hr data-content=&quot;핵심&quot; /&gt;
+
+&lt;p&gt;자바에서 스트림(Stream)은 데이터를 추상화하여 다루는, 데이터의 흐름을 나타내는 객체입니다.&lt;/p&gt;
+
+&lt;hr data-content=&quot;자세한 설명&quot; /&gt;
+
+&lt;p&gt;스트림은 자바 8에서 추가된 기능으로, 복잡한 데이터 처리를 간결하고 효율적으로 할 수 있도록 도와줍니다. 배열이나 컬렉션의 데이터를 함수형 프로그래밍 방식으로 처리할 수 있게 하며, 병렬처리 기능도 지원합니다.&lt;/p&gt;
+
+&lt;p&gt;스트림은 ‘원본 데이터 변경 없이’ 데이터를 처리합니다. 이는 중간 처리 과정에서 새로운 스트림을 생성하면서 원본 데이터를 보호합니다. 또한, 스트림은 ‘게으른 연산’을 통해 필요한 시점에만 데이터를 처리하며, 이는 효율성과 성능 향상에 기여합니다.&lt;/p&gt;
+
+&lt;p&gt;스트림은 크게 ‘중간 연산’과 ‘최종 연산’으로 나뉩니다. 중간 연산은 filter, map 등의 연산을 포함하며, 이는 스트림을 반환하여 연산의 연속성을 보장합니다. 최종 연산은 collect, forEach, reduce 등이 있으며, 스트림을 닫고 결과를 반환하거나 소비하는 연산입니다.&lt;/p&gt;
+
+&lt;p&gt;따라서, 자바의 스트림은 데이터의 흐름을 표현하고, 효율적이고 선언적인 데이터 처리를 가능하게 합니다.&lt;/p&gt;
+
+&lt;h2 id=&quot;java-stream은-어떤-상황에서-활용될-수-있는가&quot;&gt;Java Stream은 어떤 상황에서 활용될 수 있는가&lt;/h2&gt;
+
+&lt;hr data-content=&quot;핵심&quot; /&gt;
+
+&lt;p&gt;자바의 스트림(Stream)은 대용량 데이터 처리, 복잡한 데이터 연산, 병렬처리 등 다양한 상황에서 활용할 수 있습니다.&lt;/p&gt;
+
+&lt;hr data-content=&quot;자세한 설명&quot; /&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;
+    &lt;p&gt;대용량 데이터 처리: 스트림은 대용량의 데이터를 효율적으로 처리하는데 유용합니다. 스트림은 ‘게으른 연산’을 수행하기 때문에, 필요한 시점에서만 데이터를 처리합니다. 따라서 대용량 데이터를 처리할 때 메모리 사용량을 최소화하는 데 도움이 됩니다.&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;복잡한 데이터 연산: 스트림은 filter, map, reduce 등 다양한 연산을 제공하므로 복잡한 데이터 처리를 쉽게 할 수 있습니다. 이러한 연산들을 사용하면, 데이터 필터링, 변환, 집계 등 복잡한 연산을 선언적으로 수행할 수 있습니다.&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;병렬처리: 스트림은 parallelStream() 메소드를 통해 병렬처리를 지원합니다. 이를 통해 멀티 코어 프로세서의 이점을 최대한 활용하여 성능을 향상시킬 수 있습니다. 하지만 주의할 점은, 모든 작업이 병렬 처리에 적합하지 않으며 공유 변경 가능한 데이터 등에 대한 동기화 문제를 고려해야 합니다.&lt;/p&gt;
+  &lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;따라서 자바의 스트림은 대용량 데이터 처리, 복잡한 데이터 연산, 병렬처리 등 다양한 상황에서 활용될 수 있습니다. 그러나 스트림의 특성과 사용 시 주의점을 이해하고 적절한 상황에서 사용해야 합니다.&lt;/p&gt;
+
+&lt;h2 id=&quot;병렬-처리는-언제-적용될-수-있는가&quot;&gt;병렬 처리는 언제 적용될 수 있는가&lt;/h2&gt;
+
+&lt;hr data-content=&quot;핵심&quot; /&gt;
+
+&lt;p&gt;웹 애플리케이션에서 병렬처리를 적용하는 것은 작업의 독립성, 데이터의 불변성, 동기화 오버헤드 등을 고려해야 합니다. 적절하게 관리되지 않은 병렬처리는 동시성 문제를 초래하고 성능 저하를 가져올 수 있습니다.&lt;/p&gt;
+
+&lt;hr data-content=&quot;자세한 설명&quot; /&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;
+    &lt;p&gt;작업의 독립성: 병렬 처리는 작업이 독립적일 때 가장 효과적입니다. 즉, 한 작업의 결과가 다른 작업에 영향을 주지 않는 경우입니다. 만약 작업들이 서로 연관되어 있다면, 병렬처리를 통한 성능 향상을 기대하기 어렵습니다.&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;데이터의 불변성: 데이터를 병렬로 처리할 때는 해당 데이터가 불변(immutable)한지 확인해야 합니다. 불변 객체를 사용하면 여러 스레드에서 동시에 접근하더라도 문제가 되지 않으므로, 동시성 문제를 피할 수 있습니다.&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;동기화 오버헤드: 동기화는 병렬처리에서 동시성 문제를 해결하는 한 가지 방법이지만, 동기화에는 비용이 발생합니다. 따라서 동기화 오버헤드가 작업 처리 시간보다 크다면, 병렬처리보다는 순차 처리가 더 효율적일 수 있습니다.&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;입출력(IO) 대기 시간: 병렬 처리는 CPU 바운드 작업보다는 IO 바운드 작업에 더 적합합니다. 특히 웹 애플리케이션에서는 외부 서비스 호출, 디스크 입출력 등 IO 대기 시간이 많은 경우, 병렬 처리를 통해 이러한 대기 시간을 최소화할 수 있습니다.&lt;/p&gt;
+  &lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;따라서 웹 애플리케이션에서 병렬처리를 적용하는 것은 상황에 따라 다르며, 위에서 언급한 요소들을 고려하여 결정해야 합니다. 이는 병렬 처리의 이점을 최대화하고, 동시성 문제나 성능 저하 등의 부작용을 최소화하는 데 도움이 될 것입니다.&lt;/p&gt;
+
+&lt;h2 id=&quot;병렬-처리-조건에-해당하는-독립성이란&quot;&gt;병렬 처리 조건에 해당하는 독립성이란&lt;/h2&gt;
+
+&lt;hr data-content=&quot;핵심&quot; /&gt;
+
+&lt;p&gt;병렬 처리는 여러 작업을 동시에 처리하는 것을 말합니다. 이 방식은 작업이 서로 독립적일 때 가장 효과적입니다. ‘작업의 독립성’이라는 개념은 한 작업의 결과가 다른 작업에 영향을 미치지 않는 상태를 가리킵니다.&lt;/p&gt;
+
+&lt;hr data-content=&quot;자세한 설명&quot; /&gt;
+
+&lt;p&gt;병렬 처리에서 독립적인 작업이란 한 작업이 다른 작업의 수행에 영향을 주지 않는 작업을 말합니다. 이런 종류의 작업은 다른 작업의 결과나 상태에 대해 알 필요 없이 각각 독립적으로 실행할 수 있습니다.&lt;/p&gt;
+
+&lt;p&gt;예를 들어, 여러 사진 파일을 동시에 다운로드 받는 작업을 생각해보겠습니다. 각 사진 파일을 다운로드 받는 작업은 서로 독립적입니다. 즉, 한 사진 파일의 다운로드 상태나 속도가 다른 사진 파일의 다운로드에 영향을 주지 않습니다. 따라서 이런 경우에 병렬 처리를 통해 각 사진 파일을 동시에 다운로드 받으면 전체적인 다운로드 시간을 크게 단축시킬 수 있습니다.&lt;/p&gt;
+
+&lt;p&gt;반면에, 연산의 결과가 다음 연산의 입력으로 사용되는 경우, 이 작업들은 서로 의존성을 가지게 됩니다. 예를 들어, 피보나치 수열을 계산하는 경우, 각 숫자는 이전 두 숫자의 합으로 계산됩니다. 이러한 작업은 독립적으로 수행될 수 없으므로, 병렬 처리를 적용하더라도 성능 향상을 기대하기 어렵습니다.&lt;/p&gt;
+
+&lt;p&gt;따라서 병렬 처리를 적용할 때는 작업의 독립성을 먼저 고려해야 하며, 작업이 서로 의존성을 가지는지 확인하는 것이 중요합니다. 독립적인 작업들에 대해서만 병렬 처리를 적용하면, 리소스를 효율적으로 활용하여 전체 작업의 수행 시간을 줄일 수 있습니다.&lt;/p&gt;</content><author><name>Sun Hong Lee</name></author><category term="2023" /><summary type="html"></summary></entry><entry><title type="html">도메인 서비스 &amp;amp; 애플리케이션 서비스</title><link href="http://localhost:4000/%EB%8F%84%EB%A9%94%EC%9D%B8-%EC%84%9C%EB%B9%84%EC%8A%A4-%EC%95%A0%ED%94%8C%EB%A6%AC%EC%BC%80%EC%9D%B4%EC%85%98-%EC%84%9C%EB%B9%84%EC%8A%A4.html" rel="alternate" type="text/html" title="도메인 서비스 &amp;amp; 애플리케이션 서비스" /><published>2022-09-03T00:00:00+09:00</published><updated>2022-09-03T00:00:00+09:00</updated><id>http://localhost:4000/%EB%8F%84%EB%A9%94%EC%9D%B8-%EC%84%9C%EB%B9%84%EC%8A%A4-&amp;-%EC%95%A0%ED%94%8C%EB%A6%AC%EC%BC%80%EC%9D%B4%EC%85%98-%EC%84%9C%EB%B9%84%EC%8A%A4</id><content type="html" xml:base="http://localhost:4000/%EB%8F%84%EB%A9%94%EC%9D%B8-%EC%84%9C%EB%B9%84%EC%8A%A4-%EC%95%A0%ED%94%8C%EB%A6%AC%EC%BC%80%EC%9D%B4%EC%85%98-%EC%84%9C%EB%B9%84%EC%8A%A4.html">&lt;p&gt;도메인 서비스는 &lt;strong&gt;&lt;em&gt;entity&lt;/em&gt;&lt;/strong&gt;와 &lt;strong&gt;&lt;em&gt;value object(VO)&lt;/em&gt;&lt;/strong&gt; 에 자연스럽게 맞지 않는 도메인 정보를 전달한다고 한다. 그러나 도메인 서비스를 도입하려는 또 다른 이유가 있다. 그 이유는 도메인 모델 &lt;strong&gt;격리(Isolation)&lt;/strong&gt; 와 관련이 있다.&lt;/p&gt;
 
 &lt;p&gt;그렇다면, 도메인 서비스와 애플리케이션 서비스의 차이점은 무엇일까. 이 두 개념은 도메인 엔티티와 &lt;strong&gt;&lt;em&gt;value object&lt;/em&gt;&lt;/strong&gt; 위에서 작동할 수 있는 &lt;strong&gt;Stateless class&lt;/strong&gt;를 가정하지만, 유사성은 거의 동일하다. 이들의 주요 차이점은 &lt;strong&gt;도메인 서비스는 도메인 로직을 유지하는 반면 애플리케이션 서비스는 그렇지 않다는 것이다.&lt;/strong&gt;&lt;/p&gt;
 
