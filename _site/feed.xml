@@ -1,8 +1,22 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.3.2">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2023-07-10T15:57:30+09:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">Dev Ceremony</title><subtitle>A (nearly) no-CSS, fast, minimalist Jekyll theme.
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.3.2">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2023-07-10T22:16:53+09:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">Dev Ceremony</title><subtitle>A (nearly) no-CSS, fast, minimalist Jekyll theme.
 </subtitle><author><name>Sun Hong Lee</name></author><entry><title type="html">Spring에 관한 필수 지식들</title><link href="http://localhost:4000/spring%EC%97%90-%EA%B4%80%ED%95%9C-%ED%95%84%EC%88%98-%EC%A7%80%EC%8B%9D%EB%93%A4.html" rel="alternate" type="text/html" title="Spring에 관한 필수 지식들" /><published>2023-06-29T00:00:00+09:00</published><updated>2023-06-29T00:00:00+09:00</updated><id>http://localhost:4000/spring%EC%97%90-%EA%B4%80%ED%95%9C-%ED%95%84%EC%88%98-%EC%A7%80%EC%8B%9D%EB%93%A4</id><content type="html" xml:base="http://localhost:4000/spring%EC%97%90-%EA%B4%80%ED%95%9C-%ED%95%84%EC%88%98-%EC%A7%80%EC%8B%9D%EB%93%A4.html">&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
 
 &lt;blockquote&gt;
-  &lt;p&gt;Spring 및 SpringBoot의 구조, 동작과정 및 기본 원리에 대한 개념 정리&lt;/p&gt;
+  &lt;p&gt;&lt;a href=&quot;#spring의-동작과정에-대해&quot;&gt;Spring의 동작과정에 대해&lt;/a&gt;
+&lt;a href=&quot;#springboot의-동작과정에-대해&quot;&gt;SpringBoot의 동작과정에 대해&lt;/a&gt;   &lt;br /&gt;
+&lt;a href=&quot;#spring과-springboot의-차이에-대해&quot;&gt;Spring과 SpringBoot의 차이에 대해&lt;/a&gt;   &lt;br /&gt;
+&lt;a href=&quot;#springboot의-ioc컨테이너에-대해&quot;&gt;Springboot의 IoC컨테이너에 대해&lt;/a&gt;   &lt;br /&gt;
+&lt;a href=&quot;#di(dependency-injection)에-대해&quot;&gt;DI(Dependency Injection)에 대해&lt;/a&gt;   &lt;br /&gt;
+&lt;a href=&quot;#@springbootapplication에-대해&quot;&gt;@SpringBootApplication에 대해&lt;/a&gt;   &lt;br /&gt;
+&lt;a href=&quot;#@resource,-@autowired,-@inject의-차이에-대해&quot;&gt;@Resource, @Autowired, @inject의 차이에 대해&lt;/a&gt;   &lt;br /&gt;
+&lt;a href=&quot;#spring-애플리케이션-api-요청을-처리하는-과정에-대해&quot;&gt;Spring 애플리케이션 API 요청을 처리하는 과정에 대해&lt;/a&gt;   &lt;br /&gt;
+&lt;a href=&quot;#dispatcherservlet에-대해&quot;&gt;DispatcherServlet에 대해&lt;/a&gt;   &lt;br /&gt;
+&lt;a href=&quot;#트랜잭션에-대해&quot;&gt;트랜잭션에 대해&lt;/a&gt;   &lt;br /&gt;
+&lt;a href=&quot;#acid중-consistency(일관성)에-대해&quot;&gt;ACID중 Consistency(일관성)에 대해&lt;/a&gt;   &lt;br /&gt;
+&lt;a href=&quot;#@transactional에-대해&quot;&gt;@Transactional에 대해&lt;/a&gt;   &lt;br /&gt;
+&lt;a href=&quot;#spring-batch의-주요-구성요소에-대해&quot;&gt;Spring Batch의 주요 구성요소에 대해&lt;/a&gt;   &lt;br /&gt;
+&lt;a href=&quot;#spring-batch에서-chunk에-대해&quot;&gt;Spring Batch에서 chunk에 대해&lt;/a&gt;   &lt;br /&gt;
+&lt;a href=&quot;#spring-batch에서-트랜잭션-관리&quot;&gt;Spring Batch에서 트랜잭션 관리&lt;/a&gt;&lt;/p&gt;
 &lt;/blockquote&gt;
 
 &lt;h2 id=&quot;spring의-동작과정에-대해&quot;&gt;Spring의 동작과정에 대해&lt;/h2&gt;
@@ -307,7 +321,14 @@
 &lt;p&gt;즉, Spring Batch의 트랜잭션 관리는 청크 단위의 트랜잭션 경계 설정을 통해 안정성과 재시작 가능성을 보장하며, 대용량 데이터 처리를 효율적으로 수행할 수 있도록 지원합니다. 이는 Spring Batch를 통한 배치 처리가 대량의 데이터를 안정적으로 처리해야 하는 많은 비즈니스 케이스에 적합하게 만듭니다.&lt;/p&gt;</content><author><name>Sun Hong Lee</name></author><category term="2023" /><summary type="html"></summary></entry><entry><title type="html">Java에 관한 필수 지식들</title><link href="http://localhost:4000/java%EC%97%90-%EA%B4%80%ED%95%9C-%ED%95%84%EC%88%98-%EC%A7%80%EC%8B%9D%EB%93%A4.html" rel="alternate" type="text/html" title="Java에 관한 필수 지식들" /><published>2023-06-27T00:00:00+09:00</published><updated>2023-06-27T00:00:00+09:00</updated><id>http://localhost:4000/java%EC%97%90-%EA%B4%80%ED%95%9C-%ED%95%84%EC%88%98-%EC%A7%80%EC%8B%9D%EB%93%A4</id><content type="html" xml:base="http://localhost:4000/java%EC%97%90-%EA%B4%80%ED%95%9C-%ED%95%84%EC%88%98-%EC%A7%80%EC%8B%9D%EB%93%A4.html">&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
 
 &lt;blockquote&gt;
-  &lt;p&gt;Java의 기본 원리에 대한 개념 정리&lt;/p&gt;
+  &lt;p&gt;&lt;a href=&quot;#java-언어의-특징에-대해&quot;&gt;Java 언어의 특징에 대해&lt;/a&gt;     &lt;br /&gt;
+&lt;a href=&quot;#java-프로그램-실행-과정에-대해&quot;&gt;Java 프로그램 실행 과정에 대해&lt;/a&gt;     &lt;br /&gt;
+&lt;a href=&quot;#jvm의-역할에-대해&quot;&gt;JVM의 역할에 대해&lt;/a&gt;     &lt;br /&gt;
+&lt;a href=&quot;#jvm-메모리-구조에-대해&quot;&gt;JVM 메모리 구조에 대해&lt;/a&gt;     &lt;br /&gt;
+&lt;a href=&quot;#java-stream에-대해&quot;&gt;Java Stream에 대해&lt;/a&gt;     &lt;br /&gt;
+&lt;a href=&quot;#java-stream은-어떤-상황에서-활용될-수-있는가&quot;&gt;Java Stream은 어떤 상황에서 활용될 수 있는가&lt;/a&gt;     &lt;br /&gt;
+&lt;a href=&quot;#병렬-처리는-언제-적용될-수-있는가&quot;&gt;병렬 처리는 언제 적용될 수 있는가&lt;/a&gt;     &lt;br /&gt;
+&lt;a href=&quot;#병렬-처리-조건에-해당하는-독립성이란&quot;&gt;병렬 처리 조건에 해당하는 독립성이란&lt;/a&gt;&lt;/p&gt;
 &lt;/blockquote&gt;
 
 &lt;h2 id=&quot;java-언어의-특징에-대해&quot;&gt;Java 언어의 특징에 대해&lt;/h2&gt;
