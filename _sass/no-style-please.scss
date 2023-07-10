@@ -155,6 +155,18 @@ img {
     font-weight: bolder;
   }
 
+  blockquote {
+    margin-inline-start: 0.5em;
+    margin-inline-end: 0.5em;
+  }
+
+
+  blockquote p a {
+    line-height: 1.8;
+    font-size: 0.9em;
+  }
+
+
   body[a="light"] li span {
     color: dimgray;
     display: inline-block; /* inline-block으로 설정해야 width가 적용됨. */

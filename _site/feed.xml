@@ -1,15 +1,15 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.3.2">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2023-07-11T00:23:49+09:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">Dev Ceremony</title><subtitle>A (nearly) no-CSS, fast, minimalist Jekyll theme.
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.3.2">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2023-07-11T01:13:55+09:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">Dev Ceremony</title><subtitle>A (nearly) no-CSS, fast, minimalist Jekyll theme.
 </subtitle><author><name>Sun Hong Lee</name></author><entry><title type="html">Spring에 관한 필수 지식들</title><link href="http://localhost:4000/spring%EC%97%90-%EA%B4%80%ED%95%9C-%ED%95%84%EC%88%98-%EC%A7%80%EC%8B%9D%EB%93%A4.html" rel="alternate" type="text/html" title="Spring에 관한 필수 지식들" /><published>2023-06-29T00:00:00+09:00</published><updated>2023-06-29T00:00:00+09:00</updated><id>http://localhost:4000/spring%EC%97%90-%EA%B4%80%ED%95%9C-%ED%95%84%EC%88%98-%EC%A7%80%EC%8B%9D%EB%93%A4</id><content type="html" xml:base="http://localhost:4000/spring%EC%97%90-%EA%B4%80%ED%95%9C-%ED%95%84%EC%88%98-%EC%A7%80%EC%8B%9D%EB%93%A4.html">&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
 
 &lt;blockquote&gt;
-  &lt;p&gt;&lt;a href=&quot;#spring의-동작과정에-대해&quot;&gt;Spring의 동작과정에 대해&lt;/a&gt;
+  &lt;p&gt;&lt;a href=&quot;#spring의-동작과정에-대해&quot;&gt;Spring의 동작과정에 대해&lt;/a&gt;   &lt;br /&gt;
 &lt;a href=&quot;#springboot의-동작과정에-대해&quot;&gt;SpringBoot의 동작과정에 대해&lt;/a&gt;   &lt;br /&gt;
 &lt;a href=&quot;#spring과-springboot의-차이에-대해&quot;&gt;Spring과 SpringBoot의 차이에 대해&lt;/a&gt;   &lt;br /&gt;
 &lt;a href=&quot;#springboot의-ioc컨테이너에-대해&quot;&gt;Springboot의 IoC컨테이너에 대해&lt;/a&gt;   &lt;br /&gt;
 &lt;a href=&quot;#didependency-injection에-대해&quot;&gt;DI(Dependency Injection)에 대해&lt;/a&gt;   &lt;br /&gt;
 &lt;a href=&quot;#springbootapplication에-대해&quot;&gt;@SpringBootApplication에 대해&lt;/a&gt;   &lt;br /&gt;
-&lt;a href=&quot;#resource-autowired-inject의-차이에-대해&quot;&gt;@Resource, @Autowired, @inject의 차이에 대해&lt;/a&gt;   &lt;br /&gt;
-&lt;a href=&quot;#spring-애플리케이션-api-요청을-처리하는-과정에-대해&quot;&gt;Spring 애플리케이션 API 요청을 처리하는 과정에 대해&lt;/a&gt;   &lt;br /&gt;
+&lt;a href=&quot;#resource-autowired-inject의-차이에-대해&quot;&gt;@Resource, @Autowired, @inject의 차이&lt;/a&gt;   &lt;br /&gt;
+&lt;a href=&quot;#spring-애플리케이션-api-요청을-처리하는-과정에-대해&quot;&gt;API 요청을 처리하는 과정에 대해&lt;/a&gt;   &lt;br /&gt;
 &lt;a href=&quot;#dispatcherservlet에-대해&quot;&gt;DispatcherServlet에 대해&lt;/a&gt;   &lt;br /&gt;
 &lt;a href=&quot;#트랜잭션에-대해&quot;&gt;트랜잭션에 대해&lt;/a&gt;   &lt;br /&gt;
 &lt;a href=&quot;#acid중-consistency일관성에-대해&quot;&gt;ACID중 Consistency(일관성)에 대해&lt;/a&gt;   &lt;br /&gt;
