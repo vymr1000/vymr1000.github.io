@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.3.2">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2023-07-10T22:16:53+09:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">Dev Ceremony</title><subtitle>A (nearly) no-CSS, fast, minimalist Jekyll theme.
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.3.2">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2023-07-11T00:23:49+09:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">Dev Ceremony</title><subtitle>A (nearly) no-CSS, fast, minimalist Jekyll theme.
 </subtitle><author><name>Sun Hong Lee</name></author><entry><title type="html">Spring에 관한 필수 지식들</title><link href="http://localhost:4000/spring%EC%97%90-%EA%B4%80%ED%95%9C-%ED%95%84%EC%88%98-%EC%A7%80%EC%8B%9D%EB%93%A4.html" rel="alternate" type="text/html" title="Spring에 관한 필수 지식들" /><published>2023-06-29T00:00:00+09:00</published><updated>2023-06-29T00:00:00+09:00</updated><id>http://localhost:4000/spring%EC%97%90-%EA%B4%80%ED%95%9C-%ED%95%84%EC%88%98-%EC%A7%80%EC%8B%9D%EB%93%A4</id><content type="html" xml:base="http://localhost:4000/spring%EC%97%90-%EA%B4%80%ED%95%9C-%ED%95%84%EC%88%98-%EC%A7%80%EC%8B%9D%EB%93%A4.html">&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
 
 &lt;blockquote&gt;
@@ -6,14 +6,14 @@
 &lt;a href=&quot;#springboot의-동작과정에-대해&quot;&gt;SpringBoot의 동작과정에 대해&lt;/a&gt;   &lt;br /&gt;
 &lt;a href=&quot;#spring과-springboot의-차이에-대해&quot;&gt;Spring과 SpringBoot의 차이에 대해&lt;/a&gt;   &lt;br /&gt;
 &lt;a href=&quot;#springboot의-ioc컨테이너에-대해&quot;&gt;Springboot의 IoC컨테이너에 대해&lt;/a&gt;   &lt;br /&gt;
-&lt;a href=&quot;#di(dependency-injection)에-대해&quot;&gt;DI(Dependency Injection)에 대해&lt;/a&gt;   &lt;br /&gt;
-&lt;a href=&quot;#@springbootapplication에-대해&quot;&gt;@SpringBootApplication에 대해&lt;/a&gt;   &lt;br /&gt;
-&lt;a href=&quot;#@resource,-@autowired,-@inject의-차이에-대해&quot;&gt;@Resource, @Autowired, @inject의 차이에 대해&lt;/a&gt;   &lt;br /&gt;
+&lt;a href=&quot;#didependency-injection에-대해&quot;&gt;DI(Dependency Injection)에 대해&lt;/a&gt;   &lt;br /&gt;
+&lt;a href=&quot;#springbootapplication에-대해&quot;&gt;@SpringBootApplication에 대해&lt;/a&gt;   &lt;br /&gt;
+&lt;a href=&quot;#resource-autowired-inject의-차이에-대해&quot;&gt;@Resource, @Autowired, @inject의 차이에 대해&lt;/a&gt;   &lt;br /&gt;
 &lt;a href=&quot;#spring-애플리케이션-api-요청을-처리하는-과정에-대해&quot;&gt;Spring 애플리케이션 API 요청을 처리하는 과정에 대해&lt;/a&gt;   &lt;br /&gt;
 &lt;a href=&quot;#dispatcherservlet에-대해&quot;&gt;DispatcherServlet에 대해&lt;/a&gt;   &lt;br /&gt;
 &lt;a href=&quot;#트랜잭션에-대해&quot;&gt;트랜잭션에 대해&lt;/a&gt;   &lt;br /&gt;
-&lt;a href=&quot;#acid중-consistency(일관성)에-대해&quot;&gt;ACID중 Consistency(일관성)에 대해&lt;/a&gt;   &lt;br /&gt;
-&lt;a href=&quot;#@transactional에-대해&quot;&gt;@Transactional에 대해&lt;/a&gt;   &lt;br /&gt;
+&lt;a href=&quot;#acid중-consistency일관성에-대해&quot;&gt;ACID중 Consistency(일관성)에 대해&lt;/a&gt;   &lt;br /&gt;
+&lt;a href=&quot;#transactional에-대해&quot;&gt;@Transactional에 대해&lt;/a&gt;   &lt;br /&gt;
 &lt;a href=&quot;#spring-batch의-주요-구성요소에-대해&quot;&gt;Spring Batch의 주요 구성요소에 대해&lt;/a&gt;   &lt;br /&gt;
 &lt;a href=&quot;#spring-batch에서-chunk에-대해&quot;&gt;Spring Batch에서 chunk에 대해&lt;/a&gt;   &lt;br /&gt;
 &lt;a href=&quot;#spring-batch에서-트랜잭션-관리&quot;&gt;Spring Batch에서 트랜잭션 관리&lt;/a&gt;&lt;/p&gt;
@@ -322,8 +322,9 @@
 
 &lt;blockquote&gt;
   &lt;p&gt;&lt;a href=&quot;#java-언어의-특징에-대해&quot;&gt;Java 언어의 특징에 대해&lt;/a&gt;     &lt;br /&gt;
-&lt;a href=&quot;#java-프로그램-실행-과정에-대해&quot;&gt;Java 프로그램 실행 과정에 대해&lt;/a&gt;     &lt;br /&gt;
-&lt;a href=&quot;#jvm의-역할에-대해&quot;&gt;JVM의 역할에 대해&lt;/a&gt;     &lt;br /&gt;
+&lt;a href=&quot;#java-프로그램-실행-과정에-대해&quot;&gt;Java 프로그램 실행 과정에 대해&lt;/a&gt;    &lt;br /&gt;
+&lt;a href=&quot;#main-메서드에서-static이-생략된다면&quot;&gt;main 메서드에서 static이 생략된다면&lt;/a&gt;   &lt;br /&gt;
+&lt;a href=&quot;#jvm의-역할에-대해&quot;&gt;JVM의 역할에 대해&lt;/a&gt;　#JVM &lt;br /&gt;
 &lt;a href=&quot;#jvm-메모리-구조에-대해&quot;&gt;JVM 메모리 구조에 대해&lt;/a&gt;     &lt;br /&gt;
 &lt;a href=&quot;#java-stream에-대해&quot;&gt;Java Stream에 대해&lt;/a&gt;     &lt;br /&gt;
 &lt;a href=&quot;#java-stream은-어떤-상황에서-활용될-수-있는가&quot;&gt;Java Stream은 어떤 상황에서 활용될 수 있는가&lt;/a&gt;     &lt;br /&gt;
@@ -507,7 +508,9 @@
 &lt;p&gt;따라서 병렬 처리를 적용할 때는 작업의 독립성을 먼저 고려해야 하며, 작업이 서로 의존성을 가지는지 확인하는 것이 중요합니다. 독립적인 작업들에 대해서만 병렬 처리를 적용하면, 리소스를 효율적으로 활용하여 전체 작업의 수행 시간을 줄일 수 있습니다.&lt;/p&gt;</content><author><name>Sun Hong Lee</name></author><category term="2023" /><summary type="html"></summary></entry><entry><title type="html">Web에 관한 필수 지식들</title><link href="http://localhost:4000/web%EC%97%90-%EA%B4%80%ED%95%9C-%ED%95%84%EC%88%98-%EC%A7%80%EC%8B%9D%EB%93%A4.html" rel="alternate" type="text/html" title="Web에 관한 필수 지식들" /><published>2023-06-21T00:00:00+09:00</published><updated>2023-06-21T00:00:00+09:00</updated><id>http://localhost:4000/web%EC%97%90-%EA%B4%80%ED%95%9C-%ED%95%84%EC%88%98-%EC%A7%80%EC%8B%9D%EB%93%A4</id><content type="html" xml:base="http://localhost:4000/web%EC%97%90-%EA%B4%80%ED%95%9C-%ED%95%84%EC%88%98-%EC%A7%80%EC%8B%9D%EB%93%A4.html">&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
 
 &lt;blockquote&gt;
-  &lt;p&gt;웹 브라우저 동작과정 및 기본 원리에 대한 개념 정리&lt;/p&gt;
+  &lt;p&gt;&lt;a href=&quot;#http와-https에-대해&quot;&gt;HTTP와 HTTPS에 대해&lt;/a&gt;     &lt;br /&gt;
+&lt;a href=&quot;#쿠키cookie와-세션session에-대해&quot;&gt;쿠키(Cookie)와 세션(Session)에 대해&lt;/a&gt;     &lt;br /&gt;
+&lt;a href=&quot;#rest와-restful-api에-대해&quot;&gt;REST와 RESTful API에 대해&lt;/a&gt;&lt;/p&gt;
 &lt;/blockquote&gt;
 
 &lt;h2 id=&quot;http와-https에-대해&quot;&gt;HTTP와 HTTPS에 대해&lt;/h2&gt;
@@ -557,7 +560,11 @@
 &lt;p&gt;REST 아키텍처를 따르는 시스템은 간단하게 확장할 수 있으며, 독립적으로 진화하고 변경될 수 있습니다. 이는 웹 서비스가 복잡성 없이 커지고 발전하는 데 도움이 됩니다.&lt;/p&gt;</content><author><name>Sun Hong Lee</name></author><category term="2023" /><summary type="html"></summary></entry><entry><title type="html">Linux에 관한 필수 지식들</title><link href="http://localhost:4000/linux%EC%97%90-%EA%B4%80%ED%95%9C-%ED%95%84%EC%88%98-%EC%A7%80%EC%8B%9D%EB%93%A4.html" rel="alternate" type="text/html" title="Linux에 관한 필수 지식들" /><published>2023-06-20T00:00:00+09:00</published><updated>2023-06-20T00:00:00+09:00</updated><id>http://localhost:4000/linux%EC%97%90-%EA%B4%80%ED%95%9C-%ED%95%84%EC%88%98-%EC%A7%80%EC%8B%9D%EB%93%A4</id><content type="html" xml:base="http://localhost:4000/linux%EC%97%90-%EA%B4%80%ED%95%9C-%ED%95%84%EC%88%98-%EC%A7%80%EC%8B%9D%EB%93%A4.html">&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
 
 &lt;blockquote&gt;
-  &lt;p&gt;리눅스 기본 원리에 대한 개념 정리&lt;/p&gt;
+  &lt;p&gt;&lt;a href=&quot;#linux에-대해&quot;&gt;Linux에 대해&lt;/a&gt;     &lt;br /&gt;
+&lt;a href=&quot;#crontab에-대해&quot;&gt;crontab에 대해&lt;/a&gt;     &lt;br /&gt;
+&lt;a href=&quot;#ping과-netstat&quot;&gt;ping과 netstat&lt;/a&gt;     &lt;br /&gt;
+&lt;a href=&quot;#ssh에-대해&quot;&gt;ssh에 대해&lt;/a&gt;     &lt;br /&gt;
+&lt;a href=&quot;#linux-주요-명령어에-대해&quot;&gt;Linux 주요 명령어에 대해&lt;/a&gt;&lt;/p&gt;
 &lt;/blockquote&gt;
 
 &lt;h2 id=&quot;linux에-대해&quot;&gt;Linux에 대해&lt;/h2&gt;
