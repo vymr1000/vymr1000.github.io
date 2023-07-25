@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.3.2">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2023-07-11T01:13:55+09:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">Dev Ceremony</title><subtitle>A (nearly) no-CSS, fast, minimalist Jekyll theme.
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.3.2">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2023-07-25T16:32:58+09:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">Dev Ceremony</title><subtitle>A (nearly) no-CSS, fast, minimalist Jekyll theme.
 </subtitle><author><name>Sun Hong Lee</name></author><entry><title type="html">Spring에 관한 필수 지식들</title><link href="http://localhost:4000/spring%EC%97%90-%EA%B4%80%ED%95%9C-%ED%95%84%EC%88%98-%EC%A7%80%EC%8B%9D%EB%93%A4.html" rel="alternate" type="text/html" title="Spring에 관한 필수 지식들" /><published>2023-06-29T00:00:00+09:00</published><updated>2023-06-29T00:00:00+09:00</updated><id>http://localhost:4000/spring%EC%97%90-%EA%B4%80%ED%95%9C-%ED%95%84%EC%88%98-%EC%A7%80%EC%8B%9D%EB%93%A4</id><content type="html" xml:base="http://localhost:4000/spring%EC%97%90-%EA%B4%80%ED%95%9C-%ED%95%84%EC%88%98-%EC%A7%80%EC%8B%9D%EB%93%A4.html">&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
 
 &lt;blockquote&gt;
@@ -150,13 +150,13 @@
 
 &lt;ol&gt;
   &lt;li&gt;
-    &lt;p&gt;@Autowired: 이 어노테이션은 Spring에서 제공하는 어노테이션으로 주로 타입에 의한 의존성 주입을 지원합니다. 만약 같은 타입의 빈이 여러 개 존재하면 이름으로 찾아서 주입합니다. required 속성이 있는데, 기본값은 true로 되어 있습니다. 이는 의존성 주입을 해야 한다는 의미로, Spring 컨테이너에서 해당 타입의 빈을 찾지 못하면 애플리케이션은 시작되지 않습니다.&lt;/p&gt;
+    &lt;p&gt;@Autowired: 이 어노테이션은 Spring에서 제공하는 어노테이션으로 주로 &lt;strong&gt;타입&lt;/strong&gt;에 의한 의존성 주입을 지원합니다. 만약 같은 타입의 빈이 여러 개 존재하면 &lt;strong&gt;이름&lt;/strong&gt;으로 찾아서 주입합니다. required 속성이 있는데, 기본값은 true로 되어 있습니다. 이는 의존성 주입을 해야 한다는 의미로, Spring 컨테이너에서 해당 타입의 빈을 찾지 못하면 애플리케이션은 시작되지 않습니다.&lt;/p&gt;
   &lt;/li&gt;
   &lt;li&gt;
-    &lt;p&gt;@Inject: 이 어노테이션은 자바의 표준 어노테이션으로, @Autowired와 동일하게 타입에 의한 의존성 주입을 지원합니다. 또한 @Autowired와 마찬가지로 같은 타입의 빈이 여러 개 존재하면 이름으로 찾아서 주입합니다. 하지만 @Autowired와 달리 required 속성이 없습니다.&lt;/p&gt;
+    &lt;p&gt;@Inject: 이 어노테이션은 자바의 표준 어노테이션으로, &lt;strong&gt;@Autowired와 동일하게 타입&lt;/strong&gt;에 의한 의존성 주입을 지원합니다. 또한 @Autowired와 마찬가지로 같은 타입의 빈이 여러 개 존재하면 &lt;strong&gt;이름&lt;/strong&gt;으로 찾아서 주입합니다. 하지만 @Autowired와 달리 required 속성이 없습니다.&lt;/p&gt;
   &lt;/li&gt;
   &lt;li&gt;
-    &lt;p&gt;@Resource: 이 어노테이션은 JSR-250 자바 표준으로, 이름에 의한 의존성 주입을 지원합니다. @Resource는 기본적으로 빈의 이름으로 의존성을 주입하려 시도하며, 해당 이름의 빈을 찾지 못하면 타입에 따라 의존성을 주입하려고 합니다.&lt;/p&gt;
+    &lt;p&gt;@Resource: 이 어노테이션은 JSR-250 자바 표준으로, &lt;strong&gt;이름&lt;/strong&gt;에 의한 의존성 주입을 지원합니다. @Resource는 기본적으로 빈의 &lt;strong&gt;이름&lt;/strong&gt;으로 의존성을 주입하려 시도하며, 해당 이름의 빈을 찾지 못하면 &lt;strong&gt;타입&lt;/strong&gt;에 따라 의존성을 주입하려고 합니다.&lt;/p&gt;
   &lt;/li&gt;
 &lt;/ol&gt;
 
@@ -508,9 +508,12 @@
 &lt;p&gt;따라서 병렬 처리를 적용할 때는 작업의 독립성을 먼저 고려해야 하며, 작업이 서로 의존성을 가지는지 확인하는 것이 중요합니다. 독립적인 작업들에 대해서만 병렬 처리를 적용하면, 리소스를 효율적으로 활용하여 전체 작업의 수행 시간을 줄일 수 있습니다.&lt;/p&gt;</content><author><name>Sun Hong Lee</name></author><category term="2023" /><summary type="html"></summary></entry><entry><title type="html">Web에 관한 필수 지식들</title><link href="http://localhost:4000/web%EC%97%90-%EA%B4%80%ED%95%9C-%ED%95%84%EC%88%98-%EC%A7%80%EC%8B%9D%EB%93%A4.html" rel="alternate" type="text/html" title="Web에 관한 필수 지식들" /><published>2023-06-21T00:00:00+09:00</published><updated>2023-06-21T00:00:00+09:00</updated><id>http://localhost:4000/web%EC%97%90-%EA%B4%80%ED%95%9C-%ED%95%84%EC%88%98-%EC%A7%80%EC%8B%9D%EB%93%A4</id><content type="html" xml:base="http://localhost:4000/web%EC%97%90-%EA%B4%80%ED%95%9C-%ED%95%84%EC%88%98-%EC%A7%80%EC%8B%9D%EB%93%A4.html">&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
 
 &lt;blockquote&gt;
-  &lt;p&gt;&lt;a href=&quot;#http와-https에-대해&quot;&gt;HTTP와 HTTPS에 대해&lt;/a&gt;     &lt;br /&gt;
+  &lt;p&gt;— 네트워크    &lt;br /&gt;
+&lt;a href=&quot;#http와-https에-대해&quot;&gt;HTTP와 HTTPS에 대해&lt;/a&gt;     &lt;br /&gt;
 &lt;a href=&quot;#쿠키cookie와-세션session에-대해&quot;&gt;쿠키(Cookie)와 세션(Session)에 대해&lt;/a&gt;     &lt;br /&gt;
-&lt;a href=&quot;#rest와-restful-api에-대해&quot;&gt;REST와 RESTful API에 대해&lt;/a&gt;&lt;/p&gt;
+&lt;a href=&quot;#rest와-restful-api에-대해&quot;&gt;REST와 RESTful API에 대해&lt;/a&gt;    &lt;br /&gt;
+— OS    &lt;br /&gt;
+&lt;a href=&quot;#프로세스와-스레드에-대해&quot;&gt;프로세스와 스레드에 대해&lt;/a&gt;&lt;/p&gt;
 &lt;/blockquote&gt;
 
 &lt;h2 id=&quot;http와-https에-대해&quot;&gt;HTTP와 HTTPS에 대해&lt;/h2&gt;
@@ -557,7 +560,48 @@
 
 &lt;p&gt;예를 들어, RESTful API를 사용하면 HTTP의 GET 메서드를 사용하여 자원을 조회하고, POST 메서드를 사용하여 새로운 자원을 생성하며, PUT 또는 PATCH 메서드를 사용하여 자원을 업데이트하고, DELETE 메서드를 사용하여 자원을 삭제할 수 있습니다.&lt;/p&gt;
 
-&lt;p&gt;REST 아키텍처를 따르는 시스템은 간단하게 확장할 수 있으며, 독립적으로 진화하고 변경될 수 있습니다. 이는 웹 서비스가 복잡성 없이 커지고 발전하는 데 도움이 됩니다.&lt;/p&gt;</content><author><name>Sun Hong Lee</name></author><category term="2023" /><summary type="html"></summary></entry><entry><title type="html">Linux에 관한 필수 지식들</title><link href="http://localhost:4000/linux%EC%97%90-%EA%B4%80%ED%95%9C-%ED%95%84%EC%88%98-%EC%A7%80%EC%8B%9D%EB%93%A4.html" rel="alternate" type="text/html" title="Linux에 관한 필수 지식들" /><published>2023-06-20T00:00:00+09:00</published><updated>2023-06-20T00:00:00+09:00</updated><id>http://localhost:4000/linux%EC%97%90-%EA%B4%80%ED%95%9C-%ED%95%84%EC%88%98-%EC%A7%80%EC%8B%9D%EB%93%A4</id><content type="html" xml:base="http://localhost:4000/linux%EC%97%90-%EA%B4%80%ED%95%9C-%ED%95%84%EC%88%98-%EC%A7%80%EC%8B%9D%EB%93%A4.html">&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+&lt;p&gt;REST 아키텍처를 따르는 시스템은 간단하게 확장할 수 있으며, 독립적으로 진화하고 변경될 수 있습니다. 이는 웹 서비스가 복잡성 없이 커지고 발전하는 데 도움이 됩니다.&lt;/p&gt;
+
+&lt;h2 id=&quot;프로세스와-스레드에-대해&quot;&gt;프로세스와 스레드에 대해&lt;/h2&gt;
+
+&lt;hr data-content=&quot;핵심&quot; /&gt;
+
+&lt;p&gt;프로세스는 운영 체제에서 실행 중인 프로그램을 나타냅니다. 이는 자체적인 메모리 공간을 갖고 있으며, 시스템 리소스를 활용할 수 있는 독립적인 엔티티입니다.   &lt;br /&gt;
+스레드는 프로세스 내에서 실행되는 여러 흐름의 단위입니다. 스레드는 프로세스의 자원을 공유하면서 병렬 처리를 가능하게 합니다.&lt;/p&gt;
+
+&lt;hr data-content=&quot;자세한 설명&quot; /&gt;
+
+&lt;p&gt;프로세스는 각각 독립된 메모리 영역(Code, Data, Stack)과 시스템 자원을 할당받아 사용합니다. 프로세스는 다른 프로세스와 정보를 공유하지 않으며, 프로세스간의 통신(IPC, Inter-Process Communication)을 통해 데이터를 주고 받을 수 있습니다. 운영체제는 프로세스에게 CPU 사용 시간을 할당하고 이를 관리하며, 각 프로세스는 이런 CPU 스케줄링에 따라 동작합니다.&lt;/p&gt;
+
+&lt;p&gt;스레드는 프로세스 내에서 독립적으로 동작하는 여러 실행 흐름이며, 프로세스의 자원과 메모리를 공유합니다. 따라서 스레드간의 통신이 프로세스 간 통신보다 빠르며, 메모리 사용량도 적습니다. 각 스레드는 고유의 Register와 Stack을 갖고 있지만, Heap 메모리는 다른 스레드와 공유합니다. 이를 통해 프로세스 내에서 병렬 처리를 가능하게 하며, 효율적인 프로그램을 작성할 수 있습니다.&lt;/p&gt;
+
+&lt;h2 id=&quot;세마포어에-대해&quot;&gt;세마포어에 대해&lt;/h2&gt;
+
+&lt;hr data-content=&quot;핵심&quot; /&gt;
+
+&lt;p&gt;세마포어는 동시에 자원에 접근할 수 있는 프로세스나 스레드의 수를 제한하는 동기화 기법입니다.&lt;/p&gt;
+
+&lt;hr data-content=&quot;자세한 설명&quot; /&gt;
+
+&lt;p&gt;세마포어는 공유 자원에 대한 동시 접근을 제어하는 방법으로, 운영 체제의 커널 영역에서 관리되는 정수값을 이용하여 동작합니다. 이 정수값은 동시에 리소스에 접근할 수 있는 최대 허용 개수를 의미하며, 프로세스 또는 스레드가 자원에 접근하려 할 때 이 값을 감소시키고, 자원 사용이 끝나면 다시 증가시킵니다.&lt;/p&gt;
+
+&lt;p&gt;세마포어의 값이 0이면, 자원에 접근하려는 프로세스나 스레드는 대기 상태로 전환되고, 세마포어의 값이 다시 양수가 될 때까지 대기합니다. 이렇게 함으로써, 공유 자원에 대한 동시 접근을 제어하고 경쟁 상태(race condition)를 방지할 수 있습니다.&lt;/p&gt;
+
+&lt;p&gt;세마포어는 두 가지 기본 연산인 P (proberen, 시도) 연산과 V (verhogen, 증가) 연산으로 이루어져 있습니다. P 연산은 세마포어 값을 감소시키고, V 연산은 값을 증가시키는 작업을 합니다. 이 연산들은 원자적으로 수행되어야 합니다, 즉 이 연산들이 수행되는 동안에는 다른 프로세스나 스레드가 세마포어를 변경하지 못하도록 해야 합니다. 이를 통해 공유 자원에 대한 동기화를 유지하고 데이터의 일관성을 보장합니다.&lt;/p&gt;
+
+&lt;h2 id=&quot;뮤텍스에-대해&quot;&gt;뮤텍스에 대해&lt;/h2&gt;
+
+&lt;hr data-content=&quot;핵심&quot; /&gt;
+
+&lt;p&gt;뮤텍스(Mutex, Mutual Exclusion)는 동시에 하나의 스레드 또는 프로세스만이 공유 리소스에 접근하도록 제한하는 동기화 기법입니다.&lt;/p&gt;
+
+&lt;hr data-content=&quot;자세한 설명&quot; /&gt;
+
+&lt;p&gt;뮤텍스는 상호 배제(Mutual Exclusion)의 약어로, 여러 스레드 또는 프로세스가 동시에 공유 리소스에 접근하는 것을 방지하고, 한 번에 하나의 스레드 또는 프로세스만이 해당 자원을 사용하도록 제한합니다. 이렇게 함으로써, 뮤텍스는 동시성 제어와 데드락 방지를 위한 중요한 도구로 작용합니다.&lt;/p&gt;
+
+&lt;p&gt;뮤텍스는 일반적으로 lock과 unlock 연산으로 구성됩니다. lock 연산은 스레드가 공유 자원을 사용하려고 할 때 호출되며, 해당 자원에 대한 뮤텍스가 이미 잠겨있는 경우, 호출한 스레드는 뮤텍스가 해제될 때까지 대기 상태가 됩니다. 반대로 unlock 연산은 스레드가 공유 자원 사용을 완료하면 호출되며, 이 연산은 뮤텍스를 해제하고 다른 스레드가 공유 자원을 사용할 수 있도록 합니다.&lt;/p&gt;
+
+&lt;p&gt;다만, 뮤텍스를 사용할 때는 잠금-해제 순서를 잘 관리해야 하며, 그렇지 않으면 데드락(두 개 이상의 프로세스나 스레드가 서로 상대방의 작업이 끝나기를 영원히 기다리는 상태)가 발생할 수 있습니다. 이러한 문제를 방지하기 위해서는 구조적으로 잠금-해제 순서를 잘 디자인하고, 필요한 경우에는 다른 동기화 메커니즘(예: 세마포어나 컨디션 변수 등)과 함께 사용하는 것이 좋습니다.&lt;/p&gt;</content><author><name>Sun Hong Lee</name></author><category term="2023" /><summary type="html">— 네트워크 HTTP와 HTTPS에 대해 쿠키(Cookie)와 세션(Session)에 대해 REST와 RESTful API에 대해 — OS 프로세스와 스레드에 대해</summary></entry><entry><title type="html">Linux에 관한 필수 지식들</title><link href="http://localhost:4000/linux%EC%97%90-%EA%B4%80%ED%95%9C-%ED%95%84%EC%88%98-%EC%A7%80%EC%8B%9D%EB%93%A4.html" rel="alternate" type="text/html" title="Linux에 관한 필수 지식들" /><published>2023-06-20T00:00:00+09:00</published><updated>2023-06-20T00:00:00+09:00</updated><id>http://localhost:4000/linux%EC%97%90-%EA%B4%80%ED%95%9C-%ED%95%84%EC%88%98-%EC%A7%80%EC%8B%9D%EB%93%A4</id><content type="html" xml:base="http://localhost:4000/linux%EC%97%90-%EA%B4%80%ED%95%9C-%ED%95%84%EC%88%98-%EC%A7%80%EC%8B%9D%EB%93%A4.html">&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
 
 &lt;blockquote&gt;
   &lt;p&gt;&lt;a href=&quot;#linux에-대해&quot;&gt;Linux에 대해&lt;/a&gt;     &lt;br /&gt;
