@@ -59,13 +59,17 @@ html, body {
 
 .post-meta { text-align: right; }
 
+h1 {
+  margin-bottom: 4rem;
+}
+
 h2, h3, h4, h5, h6 { margin-top: 6rem; }
 
 hr { margin: 2rem 0; }
 
 p { margin: 1rem 0; }
 
-li { margin: 0.4rem 0; }
+li { margin: 0.6rem 0; }
 
 *:target { background: yellow; }
 
@@ -123,6 +127,15 @@ img {
   margin: 0 auto;
 }
 
+.w > ul {
+  padding: 0 0 0 1rem;
+  margin: 0 0 0 0;
+}
+
+.w > ul > ul {
+  padding: 0 0 0 1rem;
+}
+
 /* Responsive design */
 @media screen and (max-width: 600px) {
   body {
@@ -133,15 +146,6 @@ img {
     padding: 2rem 1rem;
   }
 
-  .w > ul {
-    padding: 0 0 0 0rem;
-    margin: 1.5rem 0 0 0;
-  }
-
-  .w > ul > ul {
-    padding: 0 0 0 1rem;
-  }
-
   h2 {
     font-size: 1.2em;
     margin-top: 4rem;
@@ -149,7 +153,7 @@ img {
 
   /* Increase touch target size */
   a, button {
-    font-size: 1.2em;
+    font-size: 1em;
   }
 
   code {
@@ -169,7 +173,6 @@ img {
     line-height: 1.8;
     font-size: 0.9em;
   }
-
 
   body[a="light"] li span {
     color: dimgray;
