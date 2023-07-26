@@ -1,23 +1,94 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.3.2">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2023-07-25T16:32:58+09:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">Dev Ceremony</title><subtitle>A (nearly) no-CSS, fast, minimalist Jekyll theme.
-</subtitle><author><name>Sun Hong Lee</name></author><entry><title type="html">Spring에 관한 필수 지식들</title><link href="http://localhost:4000/spring%EC%97%90-%EA%B4%80%ED%95%9C-%ED%95%84%EC%88%98-%EC%A7%80%EC%8B%9D%EB%93%A4.html" rel="alternate" type="text/html" title="Spring에 관한 필수 지식들" /><published>2023-06-29T00:00:00+09:00</published><updated>2023-06-29T00:00:00+09:00</updated><id>http://localhost:4000/spring%EC%97%90-%EA%B4%80%ED%95%9C-%ED%95%84%EC%88%98-%EC%A7%80%EC%8B%9D%EB%93%A4</id><content type="html" xml:base="http://localhost:4000/spring%EC%97%90-%EA%B4%80%ED%95%9C-%ED%95%84%EC%88%98-%EC%A7%80%EC%8B%9D%EB%93%A4.html">&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.3.2">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2023-07-26T13:45:49+09:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">Dev Ceremony</title><subtitle>A (nearly) no-CSS, fast, minimalist Jekyll theme.
+</subtitle><author><name>Sun Hong Lee</name></author><entry><title type="html">Database에 관한 필수 지식들</title><link href="http://localhost:4000/database%EC%97%90-%EA%B4%80%ED%95%9C-%ED%95%84%EC%88%98-%EC%A7%80%EC%8B%9D%EB%93%A4.html" rel="alternate" type="text/html" title="Database에 관한 필수 지식들" /><published>2023-07-09T00:00:00+09:00</published><updated>2023-07-09T00:00:00+09:00</updated><id>http://localhost:4000/database%EC%97%90-%EA%B4%80%ED%95%9C-%ED%95%84%EC%88%98-%EC%A7%80%EC%8B%9D%EB%93%A4</id><content type="html" xml:base="http://localhost:4000/database%EC%97%90-%EA%B4%80%ED%95%9C-%ED%95%84%EC%88%98-%EC%A7%80%EC%8B%9D%EB%93%A4.html">&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
 
 &lt;blockquote&gt;
-  &lt;p&gt;&lt;a href=&quot;#spring의-동작과정에-대해&quot;&gt;Spring의 동작과정에 대해&lt;/a&gt;   &lt;br /&gt;
-&lt;a href=&quot;#springboot의-동작과정에-대해&quot;&gt;SpringBoot의 동작과정에 대해&lt;/a&gt;   &lt;br /&gt;
-&lt;a href=&quot;#spring과-springboot의-차이에-대해&quot;&gt;Spring과 SpringBoot의 차이에 대해&lt;/a&gt;   &lt;br /&gt;
+  &lt;p&gt;&lt;a href=&quot;#트랜잭션에-대해&quot;&gt;트랜잭션에 대해&lt;/a&gt;   &lt;br /&gt;
+&lt;a href=&quot;#acid중-consistency일관성에-대해&quot;&gt;ACID중 Consistency(일관성)에 대해&lt;/a&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;h2 id=&quot;트랜잭션에-대해&quot;&gt;트랜잭션에 대해&lt;/h2&gt;
+
+&lt;hr data-content=&quot;핵심&quot; /&gt;
+
+&lt;p&gt;트랜잭션은 &lt;strong&gt;데이터베이스의 상태&lt;/strong&gt;를 변환시키는 하나 이상의 연산들의 집합으로, 이들 연산들은 한꺼번에 수행되거나 전혀 수행되지 않아야 함을 보장하는 기능입니다. 이는 데이터베이스의 일관성을 보장하는 중요한 메커니즘입니다. 트랜잭션의 주요 특성은 &lt;strong&gt;ACID(Atomicity, Consistency, Isolation, Durability)로 요약&lt;/strong&gt;됩니다.&lt;/p&gt;
+
+&lt;hr data-content=&quot;자세한 설명&quot; /&gt;
+
+&lt;p&gt;Atomicity(원자성): 트랜잭션 내의 모든 연산은 한꺼번에 수행되거나 아예 수행되지 않아야 합니다. 즉, 트랜잭션의 연산은 부분적으로 실행되지 않음을 보장합니다.&lt;/p&gt;
+
+&lt;p&gt;Consistency(일관성): 일관성은 트랜잭션 실행 전과 후의 데이터 상태가 일관되게 유지된다는 것을 보장합니다. 즉, 트랜잭션이 일어난 이후의 데이터베이스는 &lt;strong&gt;데이터베이스의 제약이나 규칙을 만족&lt;/strong&gt;해야 한다는 뜻입니다.&lt;/p&gt;
+
+&lt;p&gt;Isolation(독립성): 동시에 수행되는 여러 트랜잭션들이 서로에게 영향을 주지 않음을 보장합니다. 각 트랜잭션은 독립적인 수행을 완료하고, 다른 트랜잭션의 중간 결과를 볼 수 없습니다.&lt;/p&gt;
+
+&lt;p&gt;Durability(영속성): 성공적으로 완료된 트랜잭션의 결과는 영구적으로 반영되어야 합니다. 시스템 장애가 발생해도 이는 보장되어야 합니다.&lt;/p&gt;
+
+&lt;p&gt;이렇게 트랜잭션이 ACID 속성을 통해 데이터의 일관성을 보장하며, 이는 데이터베이스 시스템에서 매우 중요한 역할을 합니다.&lt;/p&gt;
+
+&lt;h2 id=&quot;acid중-consistency일관성에-대해&quot;&gt;ACID중 Consistency(일관성)에 대해&lt;/h2&gt;
+
+&lt;hr data-content=&quot;핵심&quot; /&gt;
+
+&lt;p&gt;일관성이란 트랜잭션이 데이터 무결성에 대한 제약 조건을 만족되어야 함을 의미합니다. 즉, 데이터는 모순이 없어야 합니다. 트랜잭션이 제약 조건을 위반하는 경우 일관성을 통해 트랜잭션이 실행되지 않고 이전의 상태로 롤백됩니다.&lt;/p&gt;
+
+&lt;hr data-content=&quot;자세한 설명&quot; /&gt;
+&lt;p&gt;일관성에 대해 더 자세히 이해하기 위해 예를 들어보겠습니다. 데이터베이스에 “모든 사용자는 이메일 주소를 가져야 한다”는 무결성 제약 조건이 있다고 가정해봅시다. 새 사용자를 생성하는 트랜잭션은 이메일 주소를 제공하지 않으면 실패해야 합니다. 트랜잭션이 성공적으로 완료된 후에는 모든 사용자가 여전히 이메일 주소를 가지고 있어야 하므로 데이터베이스는 일관된 상태를 유지합니다. 이와 같이 일관성은 데이터베이스의 무결성 제약 조건을 유지하면서 트랜잭션의 실행을 보장하는 속성입니다.&lt;/p&gt;</content><author><name>Sun Hong Lee</name></author><category term="2023" /><summary type="html"></summary></entry><entry><title type="html">Spring에 관한 필수 지식들</title><link href="http://localhost:4000/spring%EC%97%90-%EA%B4%80%ED%95%9C-%ED%95%84%EC%88%98-%EC%A7%80%EC%8B%9D%EB%93%A4.html" rel="alternate" type="text/html" title="Spring에 관한 필수 지식들" /><published>2023-06-29T00:00:00+09:00</published><updated>2023-06-29T00:00:00+09:00</updated><id>http://localhost:4000/spring%EC%97%90-%EA%B4%80%ED%95%9C-%ED%95%84%EC%88%98-%EC%A7%80%EC%8B%9D%EB%93%A4</id><content type="html" xml:base="http://localhost:4000/spring%EC%97%90-%EA%B4%80%ED%95%9C-%ED%95%84%EC%88%98-%EC%A7%80%EC%8B%9D%EB%93%A4.html">&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;— Spring 기본 원리   &lt;br /&gt;
+&lt;a href=&quot;#프레임워크와-라이브러리에-대해&quot;&gt;프레임워크와 라이브러리에 대해&lt;/a&gt;  &lt;br /&gt;
+&lt;a href=&quot;#spring을-왜-써야하는가&quot;&gt;Spring을 왜 써야하는가&lt;/a&gt;   &lt;br /&gt;
+&lt;a href=&quot;#spring의-동작과정에-대해&quot;&gt;Spring의 동작과정에 대해&lt;/a&gt;        &lt;br /&gt;
+&lt;a href=&quot;#springboot의-동작과정에-대해&quot;&gt;SpringBoot의 동작과정에 대해&lt;/a&gt;        &lt;br /&gt;
+&lt;a href=&quot;#spring과-springboot의-차이에-대해&quot;&gt;Spring과 SpringBoot의 차이에 대해&lt;/a&gt;     &lt;br /&gt;
+— Spring 주요 구성   &lt;br /&gt;
 &lt;a href=&quot;#springboot의-ioc컨테이너에-대해&quot;&gt;Springboot의 IoC컨테이너에 대해&lt;/a&gt;   &lt;br /&gt;
-&lt;a href=&quot;#didependency-injection에-대해&quot;&gt;DI(Dependency Injection)에 대해&lt;/a&gt;   &lt;br /&gt;
+&lt;a href=&quot;#didependency-injection에-대해&quot;&gt;DI(Dependency Injection)에 대해&lt;/a&gt;
+&lt;a href=&quot;#spring-애플리케이션-api-요청을-처리하는-과정에-대해&quot;&gt;API 요청을 처리하는 과정에 대해&lt;/a&gt;   &lt;br /&gt;
+&lt;a href=&quot;#dispatcherservlet에-대해&quot;&gt;DispatcherServlet에 대해&lt;/a&gt;&lt;br /&gt;
+&lt;a href=&quot;#스프링에-적용된-디자인패턴&quot;&gt;스프링에 적용된 디자인 패턴&lt;/a&gt;&lt;br /&gt;
+— Spring 어노테이션   &lt;br /&gt;
 &lt;a href=&quot;#springbootapplication에-대해&quot;&gt;@SpringBootApplication에 대해&lt;/a&gt;   &lt;br /&gt;
 &lt;a href=&quot;#resource-autowired-inject의-차이에-대해&quot;&gt;@Resource, @Autowired, @inject의 차이&lt;/a&gt;   &lt;br /&gt;
-&lt;a href=&quot;#spring-애플리케이션-api-요청을-처리하는-과정에-대해&quot;&gt;API 요청을 처리하는 과정에 대해&lt;/a&gt;   &lt;br /&gt;
-&lt;a href=&quot;#dispatcherservlet에-대해&quot;&gt;DispatcherServlet에 대해&lt;/a&gt;   &lt;br /&gt;
-&lt;a href=&quot;#트랜잭션에-대해&quot;&gt;트랜잭션에 대해&lt;/a&gt;   &lt;br /&gt;
-&lt;a href=&quot;#acid중-consistency일관성에-대해&quot;&gt;ACID중 Consistency(일관성)에 대해&lt;/a&gt;   &lt;br /&gt;
 &lt;a href=&quot;#transactional에-대해&quot;&gt;@Transactional에 대해&lt;/a&gt;   &lt;br /&gt;
+— Spring Batch  &lt;br /&gt;
 &lt;a href=&quot;#spring-batch의-주요-구성요소에-대해&quot;&gt;Spring Batch의 주요 구성요소에 대해&lt;/a&gt;   &lt;br /&gt;
 &lt;a href=&quot;#spring-batch에서-chunk에-대해&quot;&gt;Spring Batch에서 chunk에 대해&lt;/a&gt;   &lt;br /&gt;
 &lt;a href=&quot;#spring-batch에서-트랜잭션-관리&quot;&gt;Spring Batch에서 트랜잭션 관리&lt;/a&gt;&lt;/p&gt;
 &lt;/blockquote&gt;
+
+&lt;h2 id=&quot;프레임워크와-라이브러리에-대해&quot;&gt;프레임워크와 라이브러리에 대해&lt;/h2&gt;
+
+&lt;hr data-content=&quot;핵심&quot; /&gt;
+
+&lt;p&gt;프레임워크(Framework)와 라이브러리(Library)는 모두 소프트웨어 개발에 있어 중요한 도구로 사용되지만, 그 사용 방식과 제어 흐름에 대한 책임이 있는 주체에 있어서 차이가 있습니다.&lt;/p&gt;
+
+&lt;hr data-content=&quot;자세한 설명&quot; /&gt;
+
+&lt;p&gt;프레임워크(Framework): 프레임워크는 소프트웨어의 구체적인 부분에 해당하는 설계와 구현을 재사용이 가능하게끔 일련의 협업화된 형태로 클래스를 제공합니다. 이를 통해 개발자는 비즈니스 로직에 집중할 수 있습니다. 그러나 주의할 점은, 프레임워크에는 “제어의 역전(Inversion of Control)” 개념이 적용되어 프레임워크 자체가 작업의 흐름을 제어하며 개발자는 그 안에 필요한 코드를 작성하게 됩니다. 예를 들어, 스프링(Spring)이 대표적인 프레임워크입니다.&lt;/p&gt;
+
+&lt;p&gt;라이브러리(Library): 라이브러리는 특정 기능에 대한 코드의 집합으로, 주로 함수 또는 메서드 형태로 제공됩니다. 라이브러리는 개발자가 직접 제어 흐름을 결정하며 필요할 때 호출하여 사용할 수 있습니다. 그러므로, 라이브러리는 개발자의 코드 내에서 호출되어 사용됩니다. 예를 들어, 자바의 수학 계산 관련 함수를 제공하는 Math 클래스나, 파이썬의 데이터 처리를 도와주는 pandas가 라이브러리에 해당합니다.&lt;/p&gt;
+
+&lt;p&gt;따라서, 프레임워크와 라이브러리의 가장 큰 차이점은 ‘제어 흐름에 대한 주체’가 누구인가에 있습니다. 프레임워크는 제어 흐름을 스스로가 쥐고 있고 개발자는 그 안에서 필요한 코드를 작성하는 반면, 라이브러리는 개발자의 코드에 의해 제어됩니다.&lt;/p&gt;
+
+&lt;h2 id=&quot;spring을-왜-써야하는가&quot;&gt;Spring을 왜 써야하는가&lt;/h2&gt;
+
+&lt;hr data-content=&quot;핵심&quot; /&gt;
+
+&lt;p&gt;스프링 프레임워크는 자바로 개발하는 애플리케이션을 편리하게 개발하도록 도와주는 애플리케이션 개발 프레임워크입니다. 이 프레임워크를 사용함으로써 개발자는 편리한 개발 환경, 코드의 재사용성 및 테스트 용이성, 그리고 효과적인 설정 관리 등을 이용할 수 있습니다.&lt;/p&gt;
+
+&lt;hr data-content=&quot;자세한 설명&quot; /&gt;
+
+&lt;p&gt;의존성 주입(Dependency Injection): 스프링 프레임워크는 의존성 주입이라는 개념을 도입함으로써, 개발자가 객체 간의 의존성을 직접 관리하는 것이 아닌 프레임워크가 대신 관리해줍니다. 이를 통해 코드의 결합도를 낮추고 유연성을 높일 수 있습니다.&lt;/p&gt;
+
+&lt;p&gt;획일화된 테스트 환경 제공: 스프링은 통합 테스트 지원을 제공하여 테스트를 보다 쉽고 빠르게 수행할 수 있게 합니다. 또한 Mock 객체를 사용한 테스트 등도 지원하므로 코드의 테스트 용이성을 높일 수 있습니다.&lt;/p&gt;
+
+&lt;p&gt;프레임워크의 모듈성: 스프링은 필요한 부분을 선택하여 사용할 수 있는 모듈화된 구조를 가지고 있습니다. 예를 들어, 웹 애플리케이션 개발에는 스프링 MVC를, 보안에는 스프링 Security를 사용할 수 있습니다.&lt;/p&gt;
+
+&lt;p&gt;프로젝트 관리의 효율성: 스프링은 자바 기반의 설정, 애노테이션 기반의 설정, 그리고 XML 기반의 설정 등 다양한 방법으로 환경설정을 할 수 있어, 개발 프로젝트에 가장 적합한 설정 방식을 선택하여 사용할 수 있습니다.&lt;/p&gt;
+
+&lt;p&gt;트랜잭션 관리: 스프링은 선언적 트랜잭션 관리를 지원합니다. 이를 통해 개발자는 복잡한 트랜잭션 API를 직접 다루지 않아도 되며, 트랜잭션 관련 코드를 최소화할 수 있습니다.&lt;/p&gt;
+
+&lt;p&gt;따라서, 스프링을 사용함으로써 개발 생산성을 향상시키고, 유지보수를 용이하게 하며, 품질 높은 소프트웨어를 개발하는 데 도움이 됩니다.&lt;/p&gt;
 
 &lt;h2 id=&quot;spring의-동작과정에-대해&quot;&gt;Spring의 동작과정에 대해&lt;/h2&gt;
 
@@ -207,32 +278,34 @@
 
 &lt;p&gt;결과적으로 DispatcherServlet은 클라이언트 요청의 생애주기 전반에 걸쳐 핵심적인 역할을 수행하며, 각 요청을 적절한 컨트롤러로 라우팅하고 최종적인 결과를 렌더링하는 과정을 관리합니다.&lt;/p&gt;
 
-&lt;h2 id=&quot;트랜잭션에-대해&quot;&gt;트랜잭션에 대해&lt;/h2&gt;
+&lt;h2 id=&quot;스프링에-적용된-디자인패턴&quot;&gt;스프링에 적용된 디자인패턴&lt;/h2&gt;
 
 &lt;hr data-content=&quot;핵심&quot; /&gt;
 
-&lt;p&gt;트랜잭션은 &lt;strong&gt;데이터베이스의 상태&lt;/strong&gt;를 변환시키는 하나 이상의 연산들의 집합으로, 이들 연산들은 한꺼번에 수행되거나 전혀 수행되지 않아야 함을 보장하는 기능입니다. 이는 데이터베이스의 일관성을 보장하는 중요한 메커니즘입니다. 트랜잭션의 주요 특성은 &lt;strong&gt;ACID(Atomicity, Consistency, Isolation, Durability)로 요약&lt;/strong&gt;됩니다.&lt;/p&gt;
+&lt;p&gt;스프링 프레임워크는 객체 지향 프로그래밍 및 엔터프라이즈 애플리케이션 개발에 활용되는 여러 가지 디자인 패턴을 구현하고 있습니다. 가장 대표적으로는 Singleton, Factory, Template Method, Proxy, MVC(Model-View-Controller), Front Controller, Dependency Injection 패턴 등이 있습니다.&lt;/p&gt;
 
 &lt;hr data-content=&quot;자세한 설명&quot; /&gt;
 
-&lt;p&gt;Atomicity(원자성): 트랜잭션 내의 모든 연산은 한꺼번에 수행되거나 아예 수행되지 않아야 합니다. 즉, 트랜잭션의 연산은 부분적으로 실행되지 않음을 보장합니다.&lt;/p&gt;
-
-&lt;p&gt;Consistency(일관성): 일관성은 트랜잭션 실행 전과 후의 데이터 상태가 일관되게 유지된다는 것을 보장합니다. 즉, 트랜잭션이 일어난 이후의 데이터베이스는 &lt;strong&gt;데이터베이스의 제약이나 규칙을 만족&lt;/strong&gt;해야 한다는 뜻입니다.&lt;/p&gt;
-
-&lt;p&gt;Isolation(독립성): 동시에 수행되는 여러 트랜잭션들이 서로에게 영향을 주지 않음을 보장합니다. 각 트랜잭션은 독립적인 수행을 완료하고, 다른 트랜잭션의 중간 결과를 볼 수 없습니다.&lt;/p&gt;
-
-&lt;p&gt;Durability(영속성): 성공적으로 완료된 트랜잭션의 결과는 영구적으로 반영되어야 합니다. 시스템 장애가 발생해도 이는 보장되어야 합니다.&lt;/p&gt;
-
-&lt;p&gt;이렇게 트랜잭션이 ACID 속성을 통해 데이터의 일관성을 보장하며, 이는 데이터베이스 시스템에서 매우 중요한 역할을 합니다.&lt;/p&gt;
-
-&lt;h2 id=&quot;acid중-consistency일관성에-대해&quot;&gt;ACID중 Consistency(일관성)에 대해&lt;/h2&gt;
-
-&lt;hr data-content=&quot;핵심&quot; /&gt;
-
-&lt;p&gt;일관성이란 트랜잭션이 데이터 무결성에 대한 제약 조건을 만족되어야 함을 의미합니다. 즉, 데이터는 모순이 없어야 합니다. 트랜잭션이 제약 조건을 위반하는 경우 일관성을 통해 트랜잭션이 실행되지 않고 이전의 상태로 롤백됩니다.&lt;/p&gt;
-
-&lt;hr data-content=&quot;자세한 설명&quot; /&gt;
-&lt;p&gt;일관성에 대해 더 자세히 이해하기 위해 예를 들어보겠습니다. 데이터베이스에 “모든 사용자는 이메일 주소를 가져야 한다”는 무결성 제약 조건이 있다고 가정해봅시다. 새 사용자를 생성하는 트랜잭션은 이메일 주소를 제공하지 않으면 실패해야 합니다. 트랜잭션이 성공적으로 완료된 후에는 모든 사용자가 여전히 이메일 주소를 가지고 있어야 하므로 데이터베이스는 일관된 상태를 유지합니다. 이와 같이 일관성은 데이터베이스의 무결성 제약 조건을 유지하면서 트랜잭션의 실행을 보장하는 속성입니다.&lt;/p&gt;
+&lt;ol&gt;
+  &lt;li&gt;
+    &lt;p&gt;Singleton 패턴: 스프링의 Bean은 기본적으로 Singleton으로 관리됩니다. 즉, 한 개의 Bean 정의당 한 개의 객체 인스턴스만 존재하게 되어 리소스를 효율적으로 관리할 수 있습니다.&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;Factory 패턴: 스프링의 ApplicationContext나 BeanFactory는 Factory 패턴을 구현하고 있습니다. 이들은 Bean의 생성, 생명주기 관리 등을 담당합니다.&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;Template Method 패턴: 스프링의 JdbcTemplate이나 RestTemplate 등은 Template Method 패턴을 구현하고 있습니다. 이 패턴은 반복적인 코드를 피하고, 변하는 부분만 서브 클래스에서 구현하도록 하는 패턴입니다.&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;Proxy 패턴: 스프링의 AOP(Aspect Oriented Programming)는 Proxy 패턴을 통해 구현됩니다. 이를 통해 로깅, 트랜잭션 관리 등의 공통적인 기능을 비즈니스 로직 코드와 분리하여 개발 및 유지보수를 용이하게 합니다.&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;MVC 패턴: 스프링 MVC는 웹 애플리케이션 개발을 위해 사용되는 MVC 패턴을 구현하고 있습니다. 모델(Model), 뷰(View), 컨트롤러(Controller)의 세 가지 구성 요소를 사용하여 애플리케이션 로직을 분리합니다.&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;Dependency Injection 패턴: 스프링에서 가장 핵심적인 개념이자 패턴으로, 객체 간의 의존성을 스프링 컨테이너가 자동으로 연결해주는 방식을 의미합니다. 이를 통해 코드의 결합도를 낮추고 유연성을 높입니다.&lt;/p&gt;
+  &lt;/li&gt;
+&lt;/ol&gt;
 
 &lt;h2 id=&quot;transactional에-대해&quot;&gt;@Transactional에 대해&lt;/h2&gt;
 
@@ -324,7 +397,7 @@
   &lt;p&gt;&lt;a href=&quot;#java-언어의-특징에-대해&quot;&gt;Java 언어의 특징에 대해&lt;/a&gt;     &lt;br /&gt;
 &lt;a href=&quot;#java-프로그램-실행-과정에-대해&quot;&gt;Java 프로그램 실행 과정에 대해&lt;/a&gt;    &lt;br /&gt;
 &lt;a href=&quot;#main-메서드에서-static이-생략된다면&quot;&gt;main 메서드에서 static이 생략된다면&lt;/a&gt;   &lt;br /&gt;
-&lt;a href=&quot;#jvm의-역할에-대해&quot;&gt;JVM의 역할에 대해&lt;/a&gt;　#JVM &lt;br /&gt;
+&lt;a href=&quot;#jvm의-역할에-대해&quot;&gt;JVM의 역할에 대해&lt;/a&gt;   &lt;br /&gt;
 &lt;a href=&quot;#jvm-메모리-구조에-대해&quot;&gt;JVM 메모리 구조에 대해&lt;/a&gt;     &lt;br /&gt;
 &lt;a href=&quot;#java-stream에-대해&quot;&gt;Java Stream에 대해&lt;/a&gt;     &lt;br /&gt;
 &lt;a href=&quot;#java-stream은-어떤-상황에서-활용될-수-있는가&quot;&gt;Java Stream은 어떤 상황에서 활용될 수 있는가&lt;/a&gt;     &lt;br /&gt;
@@ -513,7 +586,11 @@
 &lt;a href=&quot;#쿠키cookie와-세션session에-대해&quot;&gt;쿠키(Cookie)와 세션(Session)에 대해&lt;/a&gt;     &lt;br /&gt;
 &lt;a href=&quot;#rest와-restful-api에-대해&quot;&gt;REST와 RESTful API에 대해&lt;/a&gt;    &lt;br /&gt;
 — OS    &lt;br /&gt;
-&lt;a href=&quot;#프로세스와-스레드에-대해&quot;&gt;프로세스와 스레드에 대해&lt;/a&gt;&lt;/p&gt;
+&lt;a href=&quot;#프로세스와-스레드에-대해&quot;&gt;프로세스와 스레드에 대해&lt;/a&gt;    &lt;br /&gt;
+&lt;a href=&quot;#세마포어에-대해&quot;&gt;세마포어에 대해&lt;/a&gt;    &lt;br /&gt;
+&lt;a href=&quot;#뮤텍스에-대해&quot;&gt;뮤텍스에 대해&lt;/a&gt;    &lt;br /&gt;
+— DevOps    &lt;br /&gt;
+&lt;a href=&quot;#CI-CD에-대해&quot;&gt;CI/CD에 대해&lt;/a&gt;&lt;/p&gt;
 &lt;/blockquote&gt;
 
 &lt;h2 id=&quot;http와-https에-대해&quot;&gt;HTTP와 HTTPS에 대해&lt;/h2&gt;
@@ -601,7 +678,23 @@
 
 &lt;p&gt;뮤텍스는 일반적으로 lock과 unlock 연산으로 구성됩니다. lock 연산은 스레드가 공유 자원을 사용하려고 할 때 호출되며, 해당 자원에 대한 뮤텍스가 이미 잠겨있는 경우, 호출한 스레드는 뮤텍스가 해제될 때까지 대기 상태가 됩니다. 반대로 unlock 연산은 스레드가 공유 자원 사용을 완료하면 호출되며, 이 연산은 뮤텍스를 해제하고 다른 스레드가 공유 자원을 사용할 수 있도록 합니다.&lt;/p&gt;
 
-&lt;p&gt;다만, 뮤텍스를 사용할 때는 잠금-해제 순서를 잘 관리해야 하며, 그렇지 않으면 데드락(두 개 이상의 프로세스나 스레드가 서로 상대방의 작업이 끝나기를 영원히 기다리는 상태)가 발생할 수 있습니다. 이러한 문제를 방지하기 위해서는 구조적으로 잠금-해제 순서를 잘 디자인하고, 필요한 경우에는 다른 동기화 메커니즘(예: 세마포어나 컨디션 변수 등)과 함께 사용하는 것이 좋습니다.&lt;/p&gt;</content><author><name>Sun Hong Lee</name></author><category term="2023" /><summary type="html">— 네트워크 HTTP와 HTTPS에 대해 쿠키(Cookie)와 세션(Session)에 대해 REST와 RESTful API에 대해 — OS 프로세스와 스레드에 대해</summary></entry><entry><title type="html">Linux에 관한 필수 지식들</title><link href="http://localhost:4000/linux%EC%97%90-%EA%B4%80%ED%95%9C-%ED%95%84%EC%88%98-%EC%A7%80%EC%8B%9D%EB%93%A4.html" rel="alternate" type="text/html" title="Linux에 관한 필수 지식들" /><published>2023-06-20T00:00:00+09:00</published><updated>2023-06-20T00:00:00+09:00</updated><id>http://localhost:4000/linux%EC%97%90-%EA%B4%80%ED%95%9C-%ED%95%84%EC%88%98-%EC%A7%80%EC%8B%9D%EB%93%A4</id><content type="html" xml:base="http://localhost:4000/linux%EC%97%90-%EA%B4%80%ED%95%9C-%ED%95%84%EC%88%98-%EC%A7%80%EC%8B%9D%EB%93%A4.html">&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+&lt;p&gt;다만, 뮤텍스를 사용할 때는 잠금-해제 순서를 잘 관리해야 하며, 그렇지 않으면 데드락(두 개 이상의 프로세스나 스레드가 서로 상대방의 작업이 끝나기를 영원히 기다리는 상태)가 발생할 수 있습니다. 이러한 문제를 방지하기 위해서는 구조적으로 잠금-해제 순서를 잘 디자인하고, 필요한 경우에는 다른 동기화 메커니즘(예: 세마포어나 컨디션 변수 등)과 함께 사용하는 것이 좋습니다.&lt;/p&gt;
+
+&lt;h2 id=&quot;cicd에-대해&quot;&gt;CI/CD에 대해&lt;/h2&gt;
+
+&lt;hr data-content=&quot;핵심&quot; /&gt;
+
+&lt;p&gt;CI/CD는 Continuous Integration(지속적 통합)와 Continuous Delivery 또는 Continuous Deployment(지속적 배포)의 약자로, 소프트웨어 개발 프로세스를 자동화하고, 개발 팀이 더 빠르고 신뢰성 있게 애플리케이션을 빌드, 테스트, 배포하도록 돕는 방법론입니다.&lt;/p&gt;
+
+&lt;hr data-content=&quot;자세한 설명&quot; /&gt;
+
+&lt;p&gt;&lt;strong&gt;Continuous Integration(CI)&lt;/strong&gt;: CI는 개발자가 자신의 코드 변경 사항을 공유 레포지토리에 빈번하게(일반적으로 하루에 여러 번) 통합하는 방법론입니다. 각 통합은 자동화된 빌드 및 테스트 단계를 트리거하여 가능한 한 빨리 버그를 발견하고 해결할 수 있게 합니다. 이렇게 하면 소프트웨어 품질이 향상되며, 통합 문제를 신속하게 찾고 해결할 수 있습니다.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Continuous Delivery&lt;/strong&gt;: Continuous Delivery는 CI의 논리를 한 단계 더 나아가, 빌드 및 테스트 단계를 통과한 모든 코드 변경 사항이 실제 프로덕션 환경에 배포될 수 있도록 만드는 접근 방식입니다. 이 방법론은 프로덕션에 대한 변경 사항을 안전하게, 신속하게, 그리고 지속적으로 제공할 수 있게 해줍니다. 그러나 실제로 코드가 프로덕션 환경에 자동으로 배포되는 것은 아닙니다. 이 단계에서는 수동 트리거가 필요합니다.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Continuous Deployment&lt;/strong&gt;: Continuous Deployment는 CI와 Continuous Delivery를 확장하여 코드 변경 사항이 자동으로 프로덕션 환경에 배포되도록 합니다. 이 방법론을 채택하면, 개발 단계에서 프로덕션 단계까지의 코드 변경 사항의 전체 라이프사이클이 자동화되어, 코드 변경 사항의 배포가 지속적으로 이루어집니다.&lt;/p&gt;
+
+&lt;p&gt;결과적으로, 이 세 가지 접근 방식의 주요 차이점은 “자동화 수준”에 있습니다. CI는 빌드 및 테스트를 자동화하며, Continuous Delivery는 배포 프로세스까지 자동화하지만 프로덕션 배포는 수동으로 유지합니다. 반면에, Continuous Deployment는 프로덕션 배포까지 완전히 자동화합니다.&lt;/p&gt;</content><author><name>Sun Hong Lee</name></author><category term="2023" /><summary type="html">— 네트워크 HTTP와 HTTPS에 대해 쿠키(Cookie)와 세션(Session)에 대해 REST와 RESTful API에 대해 — OS 프로세스와 스레드에 대해 세마포어에 대해 뮤텍스에 대해 — DevOps CI/CD에 대해</summary></entry><entry><title type="html">Linux에 관한 필수 지식들</title><link href="http://localhost:4000/linux%EC%97%90-%EA%B4%80%ED%95%9C-%ED%95%84%EC%88%98-%EC%A7%80%EC%8B%9D%EB%93%A4.html" rel="alternate" type="text/html" title="Linux에 관한 필수 지식들" /><published>2023-06-20T00:00:00+09:00</published><updated>2023-06-20T00:00:00+09:00</updated><id>http://localhost:4000/linux%EC%97%90-%EA%B4%80%ED%95%9C-%ED%95%84%EC%88%98-%EC%A7%80%EC%8B%9D%EB%93%A4</id><content type="html" xml:base="http://localhost:4000/linux%EC%97%90-%EA%B4%80%ED%95%9C-%ED%95%84%EC%88%98-%EC%A7%80%EC%8B%9D%EB%93%A4.html">&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
 
 &lt;blockquote&gt;
   &lt;p&gt;&lt;a href=&quot;#linux에-대해&quot;&gt;Linux에 대해&lt;/a&gt;     &lt;br /&gt;
@@ -1600,155 +1693,4 @@
       &lt;td&gt;물리적인 개념&lt;/td&gt;
     &lt;/tr&gt;
   &lt;/tbody&gt;
-&lt;/table&gt;</content><author><name>Sun Hong Lee</name></author><category term="2022" /><summary type="html">프로세스의 사전적 의미를 찾아보면 아래와 같이 정의를 내린다.</summary></entry><entry><title type="html">Collection Framework</title><link href="http://localhost:4000/collection-framework.html" rel="alternate" type="text/html" title="Collection Framework" /><published>2022-07-22T00:00:00+09:00</published><updated>2022-07-22T00:00:00+09:00</updated><id>http://localhost:4000/collection-framework</id><content type="html" xml:base="http://localhost:4000/collection-framework.html">&lt;p&gt;&lt;img src=&quot;./images/collection-diagram.jpg&quot; /&gt;&lt;/p&gt;
-
-&lt;h2 id=&quot;list&quot;&gt;List&lt;/h2&gt;
-
-&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
-
-&lt;h3 id=&quot;arraylist&quot;&gt;ArrayList&lt;/h3&gt;
-
-&lt;p&gt;ArrayList의 상속관계는 아래와 같다.&lt;/p&gt;
-
-&lt;div class=&quot;language-java highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;n&quot;&gt;java&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;na&quot;&gt;lang&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;na&quot;&gt;Object&lt;/span&gt;
-	&lt;span class=&quot;n&quot;&gt;java&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;na&quot;&gt;util&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;na&quot;&gt;AbstractCollection&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;&amp;lt;&lt;/span&gt;&lt;span class=&quot;no&quot;&gt;E&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;&amp;gt;&lt;/span&gt;
-		&lt;span class=&quot;n&quot;&gt;java&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;na&quot;&gt;util&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;na&quot;&gt;AbstractList&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;&amp;lt;&lt;/span&gt;&lt;span class=&quot;no&quot;&gt;E&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;&amp;gt;&lt;/span&gt;
-			&lt;span class=&quot;n&quot;&gt;javaj&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;na&quot;&gt;util&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;na&quot;&gt;ArrayList&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;&amp;lt;&lt;/span&gt;&lt;span class=&quot;no&quot;&gt;E&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;&amp;gt;&lt;/span&gt;
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
-
-&lt;p&gt;&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;ArrayList&lt;/code&gt; 정의된 부분을 보면 다음과 같이 되어있다.&lt;/p&gt;
-
-&lt;div class=&quot;language-java highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;kd&quot;&gt;public&lt;/span&gt; &lt;span class=&quot;kd&quot;&gt;class&lt;/span&gt; &lt;span class=&quot;nc&quot;&gt;ArrayList&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;&amp;lt;&lt;/span&gt;&lt;span class=&quot;no&quot;&gt;E&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;&amp;gt;&lt;/span&gt; &lt;span class=&quot;kd&quot;&gt;extends&lt;/span&gt; &lt;span class=&quot;nc&quot;&gt;AbstractList&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;&amp;lt;&lt;/span&gt;&lt;span class=&quot;no&quot;&gt;E&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;&amp;gt;&lt;/span&gt;
-        &lt;span class=&quot;kd&quot;&gt;implements&lt;/span&gt; &lt;span class=&quot;nc&quot;&gt;List&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;&amp;lt;&lt;/span&gt;&lt;span class=&quot;no&quot;&gt;E&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;&amp;gt;,&lt;/span&gt; &lt;span class=&quot;nc&quot;&gt;RandomAccess&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;nc&quot;&gt;Cloneable&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;java&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;na&quot;&gt;io&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;na&quot;&gt;Serializable&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;{&lt;/span&gt;
-				&lt;span class=&quot;o&quot;&gt;...&lt;/span&gt;
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
-
-&lt;p&gt;&lt;a href=&quot;https://techblog.woowahan.com/2550/&quot;&gt;참고: 우아한형제들 기술블로그 자바 직렬화, 그것이 알고싶다&lt;/a&gt;&lt;/p&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;Serializable&lt;/code&gt;: 생성한 객체를 JSON로 저장하여 API로 데이터를 전달할 수 있음을 지정&lt;/li&gt;
-  &lt;li&gt;&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;Cloneable&lt;/code&gt;: Object 클래스의 clone 메소드로 객체의 복제가 가능함을 명시&lt;/li&gt;
-  &lt;li&gt;&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;RandomAccess&lt;/code&gt;: 목록형 데이터에 액세스할 때 우수한 성능을 제공하도록 동작을 변경할 수 있도록 하는 것&lt;/li&gt;
-  &lt;li&gt;
-    &lt;p&gt;&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;List&lt;/code&gt;: 목록형 데이터를 처리하는것과 관련된 메소드 지정&lt;/p&gt;
-  &lt;/li&gt;
-  &lt;li&gt;&lt;strong&gt;단반향 포인터 구조로 데이터 순차적 접근에 강점을 가진다&lt;/strong&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;strong&gt;배열을 기반으로 데이터를 저장한다&lt;/strong&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;strong&gt;데이터 삽입, 삭제가 느리다&lt;/strong&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;strong&gt;데이터 검색이 빠르다&lt;/strong&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;strong&gt;Thread Safe 하지 않음&lt;/strong&gt;&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;ArrayList는 List 컬렉션 인터페이스를 구현한 클래스이다. List 컬렉션처럼 인덱스로 객체를 관리한다.일반 배열과 ArrayList는 인덱스로 객체를 관리한다는 점에서 동일하지만, 크기를 동적으로 늘릴 수 있다는 점에서 차이점이 있다. 배열은 처음 생성할 때 고정 크기를 지정하며, 사용 중에 크기를 변경할 수 없다. 만약 크기를 늘려야 한다면 새로 배열을 선언해야 한다는 단점이 있다.&lt;/p&gt;
-
-&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
-
-&lt;h3 id=&quot;vector&quot;&gt;Vector&lt;/h3&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;&lt;strong&gt;ArrayList의 구형버전이며, 모든 메소드가 동기화 되어있음&lt;/strong&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;strong&gt;잘 쓰이진 않음&lt;/strong&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;strong&gt;Thread Safe&lt;/strong&gt;&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;Vector는 ArrayList와 동일한 내부 구조를 가지고 있다. Vector 객체를 생성하기 위해서는 저장할 타입을 지정해야 한다. ArrayList와 차이점으로는 Vector 클래스는 동기화된(synchronized) 메서드로 구성되어 있다. 그렇기 때문에 멀티 스레드 환경에서 안전하게 객체를 추가, 삭제할 수 있다. 즉, 스레드에 안전하다(Thread Safe)라고 말합니다. 다만 동기화되어 있기 때문에 ArrayList 보다는 객체를 추가, 삭제하는 과정은 느릴수 밖에 없다. 안전성을 추구하는데 있어서 속도를 포기한 트레이드 오프(trade off)이다.&lt;/p&gt;
-
-&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
-
-&lt;h3 id=&quot;linkedlist&quot;&gt;LinkedList&lt;/h3&gt;
-
-&lt;div class=&quot;language-java highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;kd&quot;&gt;public&lt;/span&gt; &lt;span class=&quot;kd&quot;&gt;class&lt;/span&gt; &lt;span class=&quot;nc&quot;&gt;LinkedList&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;&amp;lt;&lt;/span&gt;&lt;span class=&quot;no&quot;&gt;E&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;&amp;gt;&lt;/span&gt;
-    &lt;span class=&quot;kd&quot;&gt;extends&lt;/span&gt; &lt;span class=&quot;nc&quot;&gt;AbstractSequentialList&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;&amp;lt;&lt;/span&gt;&lt;span class=&quot;no&quot;&gt;E&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;&amp;gt;&lt;/span&gt;
-    &lt;span class=&quot;kd&quot;&gt;implements&lt;/span&gt; &lt;span class=&quot;nc&quot;&gt;List&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;&amp;lt;&lt;/span&gt;&lt;span class=&quot;no&quot;&gt;E&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;&amp;gt;,&lt;/span&gt; &lt;span class=&quot;nc&quot;&gt;Deque&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;&amp;lt;&lt;/span&gt;&lt;span class=&quot;no&quot;&gt;E&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;&amp;gt;,&lt;/span&gt; &lt;span class=&quot;nc&quot;&gt;Cloneable&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;java&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;na&quot;&gt;io&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;na&quot;&gt;Serializable&lt;/span&gt;
-&lt;span class=&quot;o&quot;&gt;{&lt;/span&gt;
-&lt;span class=&quot;o&quot;&gt;...&lt;/span&gt;
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;&lt;strong&gt;양방향 포인터 구조로 데이터 삽입, 삭제가 빠르다. (ArrayList과 다른 점)&lt;/strong&gt;&lt;/li&gt;
-  &lt;li&gt;ArrayList보다 검색이 느리다&lt;/li&gt;
-  &lt;li&gt;LinkedList는 List도되고 Queue의 기능을 모두 구현하였다.&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;LinkedList는 List 구현 클래스이다. 내부 구조는 ArrayList와 다르다 .ArrayList에는 내부 배열에 객체를 저장해서 인덱스로 관리하지만, LinkedList는 인접 참조를 링크해서 체인처럼 관리한다. 그렇기 때문에LinkedList에서 특정 인덱스의 객체를 제거하게 되면, 제거되는 인덱스의 앞 뒤 링크만 변경되고 나머지 링크는 변경되지 않는다.&lt;/p&gt;
-
-&lt;p&gt;&lt;br /&gt;
-&lt;br /&gt;&lt;/p&gt;
-
-&lt;h2 id=&quot;set&quot;&gt;Set&lt;/h2&gt;
-
-&lt;p&gt;Set은 순서에 상관없이 어떤 데이터가 존재하는지 확인하기 위한 용도로 많이 사용된다. 다시 말해서 중복되는 것을 방지하고, 원하는 값이 포함되어 있는지를 확인하는 것이 주 용도다. 예를 들어 어떤 서버에 1분간 요청한 로그가 있다. 이 서버에 붙어서 &lt;strong&gt;요청한 IP를 기준으로 사용자의 수가 얼마나 되는지 확인한다고 가정&lt;/strong&gt;해보자. 1분간 동일한 서버에 요청하는 중복 사용자 수는 매우 많다. 만약에 &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;List&lt;/code&gt; 로 확인하려고 한다면 &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;indexOf()&lt;/code&gt; 로 해당 사용자가 요청한 내역이 있는지 먼저 확인 후 없으면 add 메소드로 추가하는 방식으로 해야될 것이다. &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;Set&lt;/code&gt; 을 사용하게 되면 이런 반복적인 작업을 피하고 데이터를 그냥 추가해주는 것만으로 원하는 작업의 구현이 가능하다. 어떤 값이 존재하는지 없는지 여부만 중요할 때 Set을 사용하면 된다.&lt;/p&gt;
-
-&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
-
-&lt;h3 id=&quot;hashset&quot;&gt;HashSet&lt;/h3&gt;
-
-&lt;p&gt;&lt;strong&gt;HashSet의 상속관계&lt;/strong&gt;&lt;/p&gt;
-
-&lt;div class=&quot;language-java highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;n&quot;&gt;java&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;na&quot;&gt;lang&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;na&quot;&gt;Object&lt;/span&gt;
-	&lt;span class=&quot;n&quot;&gt;java&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;na&quot;&gt;util&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;na&quot;&gt;AbstractCollection&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;&amp;lt;&lt;/span&gt;&lt;span class=&quot;no&quot;&gt;E&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;&amp;gt;&lt;/span&gt;
-		&lt;span class=&quot;n&quot;&gt;java&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;na&quot;&gt;util&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;na&quot;&gt;AbstractSet&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;&amp;lt;&lt;/span&gt;&lt;span class=&quot;no&quot;&gt;E&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;&amp;gt;&lt;/span&gt;
-			&lt;span class=&quot;n&quot;&gt;javaj&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;na&quot;&gt;util&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;na&quot;&gt;HashSet&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;&amp;lt;&lt;/span&gt;&lt;span class=&quot;no&quot;&gt;E&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;&amp;gt;&lt;/span&gt;
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;정렬없이 순서가 전혀 필요없는 데이터를 해시 테이블에 저장한다. Set 중에 가장 성능이 좋다.&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
-
-&lt;h3 id=&quot;treeset&quot;&gt;TreeSet&lt;/h3&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;&lt;strong&gt;저장된 데이터의 값이 따라 정렬&lt;/strong&gt;되는 셋이다. red-black이라는 트리 타입으로 값이 저장되며 HashSet보다는 성능이 느리다.&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;&lt;br /&gt;
-&lt;br /&gt;&lt;/p&gt;
-
-&lt;h2 id=&quot;map&quot;&gt;Map&lt;/h2&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;모든 데이터는 &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;key&lt;/code&gt;, &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;value&lt;/code&gt;가 존재한다.&lt;/li&gt;
-  &lt;li&gt;&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;key&lt;/code&gt;는 해당 &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;Map&lt;/code&gt;에서 고유해야 한다.&lt;/li&gt;
-  &lt;li&gt;&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;value&lt;/code&gt; 는 중복되어도 괜찮다.&lt;/li&gt;
-  &lt;li&gt;데이터간의 순서는 없다.&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
-
-&lt;h3 id=&quot;hashmap-과-hashtable의-비교&quot;&gt;HashMap 과 Hashtable의 비교&lt;/h3&gt;
-
-&lt;p&gt;&lt;a href=&quot;https://github.com/wjdrbs96/Today-I-Learn/blob/master/Java/Collection/Map/Java&quot;&gt;참고: github Java HashMap은 어떻게 동작하는가?&lt;/a&gt;&lt;/p&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;Java에 Collection이라는 인터페이스가 추가된 것은 &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;JDK 1.2&lt;/code&gt;, HashMap과 TreeMap도 이때 추가되었다.&lt;/li&gt;
-  &lt;li&gt;&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;Hashtable&lt;/code&gt;은 &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;JDK 1.0&lt;/code&gt; 버전부터 있었던 클래스이다.&lt;/li&gt;
-  &lt;li&gt;&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;Hashtable&lt;/code&gt;은 &lt;strong&gt;Thread-safe&lt;/strong&gt;하고, &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;HashMap&lt;/code&gt;은 &lt;strong&gt;Thread-unsafe&lt;/strong&gt; 라는 특징을 가지고 있다.&lt;/li&gt;
-  &lt;li&gt;&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;Hashtable&lt;/code&gt;은 key에 &lt;strong&gt;null을 허용하지 않지만&lt;/strong&gt;, &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;HashMap&lt;/code&gt;은 &lt;strong&gt;key에 null을 허용&lt;/strong&gt;한다.&lt;/li&gt;
-  &lt;li&gt;&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;HashMap&lt;/code&gt;은 보조해시를 사용하기 때문에 보조 해시함수를 사용하지 않는 &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;Hashtable&lt;/code&gt;에 비하여 해시충돌(hash collision)이 덜 발생할 수 있어 상대적으로 성능상 이점이 있다.&lt;/li&gt;
-  &lt;li&gt;
-    &lt;p&gt;Hashtable의 구현부&lt;/p&gt;
-
-    &lt;div class=&quot;language-java highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;  &lt;span class=&quot;kd&quot;&gt;public&lt;/span&gt; &lt;span class=&quot;kd&quot;&gt;class&lt;/span&gt; &lt;span class=&quot;nc&quot;&gt;Hashtable&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;&amp;lt;&lt;/span&gt;&lt;span class=&quot;no&quot;&gt;K&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;,&lt;/span&gt;&lt;span class=&quot;no&quot;&gt;V&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;&amp;gt;&lt;/span&gt;
-      &lt;span class=&quot;kd&quot;&gt;extends&lt;/span&gt; &lt;span class=&quot;nc&quot;&gt;Dictionary&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;&amp;lt;&lt;/span&gt;&lt;span class=&quot;no&quot;&gt;K&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;,&lt;/span&gt;&lt;span class=&quot;no&quot;&gt;V&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;&amp;gt;&lt;/span&gt;
-      &lt;span class=&quot;kd&quot;&gt;implements&lt;/span&gt; &lt;span class=&quot;nc&quot;&gt;Map&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;&amp;lt;&lt;/span&gt;&lt;span class=&quot;no&quot;&gt;K&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;,&lt;/span&gt;&lt;span class=&quot;no&quot;&gt;V&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;&amp;gt;,&lt;/span&gt; &lt;span class=&quot;nc&quot;&gt;Cloneable&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;java&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;na&quot;&gt;io&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;na&quot;&gt;Serializable&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;{&lt;/span&gt;
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;    &lt;/div&gt;
-  &lt;/li&gt;
-  &lt;li&gt;
-    &lt;p&gt;HashMap의 구현부&lt;/p&gt;
-
-    &lt;div class=&quot;language-java highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;  &lt;span class=&quot;kd&quot;&gt;public&lt;/span&gt; &lt;span class=&quot;kd&quot;&gt;class&lt;/span&gt; &lt;span class=&quot;nc&quot;&gt;HashMap&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;&amp;lt;&lt;/span&gt;&lt;span class=&quot;no&quot;&gt;K&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;,&lt;/span&gt;&lt;span class=&quot;no&quot;&gt;V&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;&amp;gt;&lt;/span&gt; &lt;span class=&quot;kd&quot;&gt;extends&lt;/span&gt; &lt;span class=&quot;nc&quot;&gt;AbstractMap&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;&amp;lt;&lt;/span&gt;&lt;span class=&quot;no&quot;&gt;K&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;,&lt;/span&gt;&lt;span class=&quot;no&quot;&gt;V&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;&amp;gt;&lt;/span&gt;
-      &lt;span class=&quot;kd&quot;&gt;implements&lt;/span&gt; &lt;span class=&quot;nc&quot;&gt;Map&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;&amp;lt;&lt;/span&gt;&lt;span class=&quot;no&quot;&gt;K&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;,&lt;/span&gt;&lt;span class=&quot;no&quot;&gt;V&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;&amp;gt;,&lt;/span&gt; &lt;span class=&quot;nc&quot;&gt;Cloneable&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;nc&quot;&gt;Serializable&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;{&lt;/span&gt;
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;    &lt;/div&gt;
-  &lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
-
-&lt;h3 id=&quot;hashmap&quot;&gt;HashMap&lt;/h3&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;HashMap&lt;/code&gt;의 key는 기본 자료형과 참조형 모두 될 수 있다. 그래서 보통 int, String 같은 걸 쓰기도 하는데, 개발자가 직접 클래스를 만들어 그 클래스를 key로 사용한다면 &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;Object&lt;/code&gt; 클래스의 &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;hashCode()&lt;/code&gt;, &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;equals()&lt;/code&gt; 를 잘 구현해놓아야 한다.&lt;/li&gt;
-  &lt;li&gt;정렬된 key목록의 Map을 원한다면  &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;TreeMap&lt;/code&gt; 을 활용하자.&lt;/li&gt;
-&lt;/ul&gt;</content><author><name>Sun Hong Lee</name></author><category term="2022" /><summary type="html"></summary></entry></feed>
+&lt;/table&gt;</content><author><name>Sun Hong Lee</name></author><category term="2022" /><summary type="html">프로세스의 사전적 의미를 찾아보면 아래와 같이 정의를 내린다.</summary></entry></feed>
