@@ -1,5 +1,6 @@
 <ul>
   {%-for item in include.collection-%}
+  <!-- menu.yml의 title 삭제
     <li>
     {%- if item.url -%}
       <a href="{{ item.url }}">{{ item.title }}</a>
@@ -7,6 +8,7 @@
       {{ item.title }}
     {%- endif -%}
     </li>
+    -->
 
     {%-if item.post_list-%}
       {%

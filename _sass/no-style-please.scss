@@ -134,8 +134,12 @@ img {
   }
 
   .w > ul {
-    padding: 0 0 0 1.5rem;
+    padding: 0 0 0 0rem;
     margin: 1.5rem 0 0 0;
+  }
+
+  .w > ul > ul {
+    padding: 0 0 0 1rem;
   }
 
   h2 {
