@@ -19,6 +19,14 @@ entries:
       show_more_text: See archive...
       show_more_url: archive.html
 
+  - title: 2021
+    post_list:
+      category: "2021"
+      limit: 30
+      show_more: true
+      show_more_text: See archive...
+      show_more_url: archive.html
+
   - title: info
     post_list:
       category: info
