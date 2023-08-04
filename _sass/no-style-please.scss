@@ -95,11 +95,32 @@ table, th, td {
   padding: 0.4rem;
 }
 
-code {
+p code {
   color: black;
   background: #00af66;
-  font-size: 1.2em;
+  font-size: 1em;
   font-weight: bolder;
+  border-radius: 0px;
+  padding-left: 0.3em;
+  padding-right: 0.3em;
+}
+
+ol code {
+  color: black;
+  background: #00af66;
+  font-size: 1em;
+  font-weight: bolder;
+  border-radius: 0px;
+  padding-left: 0.3em;
+  padding-right: 0.3em;
+}
+
+code {
+  color: #dfe7f3;
+  background: #061626;
+  font-size: 0.9em;
+  border-radius: 5px;
+  font-family: 'Courier New', Courier, monospace;
 }
 
 div.highlighter-rouge code {
