@@ -182,13 +182,6 @@ img {
     font-size: 1em;
   }
 
-  code {
-    color: black;
-    background: #00af66;
-    font-size: 1em;
-    font-weight: bolder;
-  }
-
   blockquote {
     margin-inline-start: 0.5em;
     margin-inline-end: 0.5em;
@@ -204,5 +197,9 @@ img {
     display: inline-block; /* inline-block으로 설정해야 width가 적용됨. */
     width: 100px;
     text-align: left; /* 오른쪽 정렬로 설정하여 날짜가 항상 같은 위치에 오도록 한다. */
+  }
+
+  code {
+    font-size: 0.75em;
   }
 }
