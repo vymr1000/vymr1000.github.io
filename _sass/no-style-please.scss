@@ -121,6 +121,19 @@ code {
   font-family: 'Monaco', Courier, monospace;
 }
 
+.kd { color: #A9B7C6; } /* keyword */
+.nc { color: #71C6B1; } /* class name */
+.o { color: #808080; } /* operator */
+.nf { color: #DCDCAF; } /* function name */
+.kc { color: #6897BB; }
+.mi { color: #BACDAB; }
+.kt { color: #71C6B1; } /* data type */
+.na { color: #DCDCAF; } /* method */
+.c1 { color: #74985D; } /* comment */
+.cm { color: #74985D; } /* comment */
+.k { color: #BC89BD; }
+.s { color: #C5947C; }
+
 div.highlighter-rouge code {
   display: block;
   overflow-x: auto;
