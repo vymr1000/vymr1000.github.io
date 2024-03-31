@@ -3,6 +3,14 @@
 
 entries:
 
+  - title: 2024
+    post_list:
+      category: "2024"
+      limit: 30
+      show_more: true
+      show_more_text: See archive...
+      show_more_url: archive.html
+
   - title: 2023
     post_list:
       category: "2023"
